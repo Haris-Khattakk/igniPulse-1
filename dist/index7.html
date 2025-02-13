@@ -1,0 +1,2943 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IgniPulse</title>
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- Include Required Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta/dist/vanta.waves.min.js"></script>
+
+
+
+
+</head>
+
+
+<body>
+    <!-- Home section  -->
+
+    <div class="relative w-full h-auto overflow-hidden">
+        <video class="absolute top-0 left-0 w-full h-full object-cover" autoplay muted loop playsinline>
+            <source src="images/vdo3.mp4" type="video/mp4">
+
+        </video>
+        <!-- Black transparent overlay -->
+        <div class="absolute top-0 left-0 w-full h-full bg-black opacity-50"></div>
+        <!-- Overlay content -->
+        <div class="relative z-10 flex  h-full">
+            <!-- banner section  -->
+            <div class="text-white px-7 lg:px-10 xl:px-16 2xl:px-20    xl:pb-14 md:pb-8 pb-7">
+                <div class="flex md:flex-row flex-col gap-5 md:gap-7 xl:gap-10 2xl:gap-14 justify-between   h-auto">
+                    <div class="md:w-[50%] w-full flex flex-col items-center ">
+                        <div class="flex flex-col gap-5 md:justify-center justify-center  ">
+                            <div class="w-[80%] mx-auto md:mx-0">
+                                <img src="images/igni4.png" alt="" class="ml-[-10px]">
+                            </div>
+                            <div class=" lg:w-[95%] xl:w-[70%] 2xl:w-[%]">
+                                <p class="text-[18px] md:text-[22px] xl:text-[20px] 2xl:text-[29px]  text-center md:text-left  text-yellow-200  font-playfairDisplay tracking-wide leading-
+                                 ">
+                                    igniPulse crafts thrilling Android games with immersive graphics, seamless gameplay,
+                                    and captivating adventures designed to keep players hooked.
+                                </p>
+                            </div>
+                            <div class="justify-center  flex md:justify-start ">
+                                <a href="#game-section" id="scroll-button">
+                                    <button
+                                        class="bg-black  text-orange-300 hover:text-orange-500 transition duration-300 ease-in-out relative md:w-48 md:h-16 h-12 w-32 overflow-hidden group border-orange-500 border-[1px] ">
+                                        <!-- Left Side Half Border (Will Shift Up on Hover) -->
+                                        <span
+                                            class="absolute left-0 top-0 h-1/2 w-[5px] bg-orange-500  transition-all duration-500 ease-in-out group-hover:top-[50%] group-hover:h-full"></span>
+
+                                        <!-- Top Border -->
+                                        <span
+                                            class="absolute left-0 top-0 w-1/2 h-[5px] bg-orange-500 transition-all duration-500 ease-in-out group-hover:left-[50%] group-hover:w-full"></span>
+
+                                        <!-- Right Side Half Border (Will Shift Down on Hover) -->
+                                        <span
+                                            class="absolute right-0 bottom-0 h-1/2 w-[5px] bg-orange-500 transition-all duration-500 ease-in-out group-hover:bottom-[50%] group-hover:h-full"></span>
+
+                                        <!-- Bottom Border -->
+                                        <span
+                                            class="absolute right-0 bottom-0 w-1/2 h-[5px] bg-orange-500 transition-all duration-500 ease-in-out group-hover:right-[50%] group-hover:w-full"></span>
+
+                                        <!-- Small Line Before 'Games' Text -->
+                                        <span
+                                            class="absolute hidden md:flex right-7 md:top-8 top-6  w-6 md:h-[3px] h-[2px] bg-white group-hover:bg-orange-500 md:group-hover:w-8 group-hover:w-5 md:group-hover:h-[5px] group-hover:h-[3px] transition-all duration-300 eas"></span>
+
+
+                                        <!-- Button Text -->
+                                        <div
+                                            class="   md:ml-[-60px] md:hover:ml-[-30px] ml-[-px]  hover:text-[17px]  duration-300 relative z-10 font-button">
+                                            Games</div>
+                                    </button>
+                                </a>
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                    <div
+                        class="md:w-[40%] lg:w-[36%]   object-fill  w-full flex justify-end items-start md:justify-start relative group">
+                        <!-- <img src="images/2.gif" alt="Banner Image"
+                            class=" flex justify-end   pr-[-100px]      lg:object-cover   " /> -->
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- vanta js bg  -->
+    <div class="bg-[url('images/b124.gif')] w-full bg-cover bg-fixed  h-auto " id="game-section">
+
+        <!-- Game section  -->
+        <div class="game-main-div">
+            <div class="flex md:flex-row flex-col justify-center items-center ">
+                <!-- <div class="head-text ">
+                    <p class="">Our Games</p>
+                </div> -->
+                <div class="flex justify-center">
+                    <img src="images/games.png" alt="" class="md:w-[30%]  w-[55%] ">
+                </div>
+
+            </div>
+            <!-- cards  -->
+            <div class="">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-5 ">
+                    <!-- card 1 -->
+                    <div class="lg:pt-44 pt-28 ">
+                        <div class="shadow-2xl shadow-black">
+                            <div class="game-card-bg     ">
+                                <div class="game-img-adj">
+                                    <img src="images/cards/a5.jpg" alt="" class="2xl:w-[600px]    rounded-xl transition-all duration-500 ease-in-out transform hover:scale-105 hover:shadow-lg w-full object-cover   h-28 md:h-40 lg:h-52 xl:h-64 2xl:h-72  min-h-[150px] max-h-[px] max-w-[400px] lg:max-w-[450px]  xl:max-w-[550px] 2xl:max-w-[700px] shadow-lg shadow-black 
+                                        ">
+                                </div>
+                                <div class=" ">
+
+
+
+
+
+                                    <!-- Text Section with Animation -->
+                                    <!-- Text Section with Animation -->
+                                    <!-- Text Section with Animation -->
+                                    <div class="text-center text-white font-orbitron leading-tight font-bold">
+                                        <span id="animated-text">
+                                            <span
+                                                class="inline-block char text-[20px] xl:text-[31px] lg:text-[28px] md:text-[24px] font-extrabold gradient-text-orange">W</span>
+                                            <span
+                                                class="inline-block char text-[20px] xl:text-[31px] lg:text-[28px] md:text-[24px] font-extrabold gradient-text-orange">i</span>
+                                            <span
+                                                class="inline-block char text-[20px] xl:text-[31px] lg:text-[28px] md:text-[24px] font-extrabold gradient-text-orange">n</span>
+                                            <span
+                                                class="inline-block char text-[20px] xl:text-[31px] lg:text-[28px] md:text-[24px] font-extrabold gradient-text-orange">g</span>
+                                            <span
+                                                class="inline-block char text-[20px] xl:text-[31px] lg:text-[28px] md:text-[24px] font-extrabold gradient-text-orange">R</span>
+                                            <span
+                                                class="inline-block char text-[20px] xl:text-[31px] lg:text-[28px] md:text-[24px] font-extrabold gradient-text-orange">u</span>
+                                            <span
+                                                class="inline-block char text-[20px] xl:text-[31px] lg:text-[28px] md:text-[24px] font-extrabold gradient-text-orange">s</span>
+                                            <span
+                                                class="inline-block char text-[20px] xl:text-[31px] lg:text-[28px] md:text-[24px] font-extrabold gradient-text-orange">h</span>
+                                        </span>
+                                    </div>
+                                    <div class="card-prg-text"
+                                        style="text-shadow: 2px 2px 0px black, -2px -2px 0px black, 2px -2px 0px black, -2px 2px 0px black;">
+                                        <p class="inline-block text-center ">
+                                            Fly in WingRush, collect coins, and defeat relentless enemies in the skies.
+                                            Conquer dynamic helicopter missions, face fierce battles
+                                        </p>
+                                    </div>
+                                    <div class="flex justify-center p-5 ">
+                                        <button
+                                            class="bg-black text-orange-300 hover:text-orange-500 transition duration-300 ease-in-out relative w-32   h-12  overflow-hidden group border-orange-500 border-[1px] ">
+                                            <span
+                                                class="absolute left-0 top-0 h-1/2 w-[2px] bg-orange-500 transition-all duration-500 ease-in-out group-hover:top-[50%] group-hover:h-full"></span>
+                                            <span
+                                                class="absolute left-0 top-0 w-1/2 h-[2px] bg-orange-500 transition-all duration-500 ease-in-out group-hover:left-[50%] group-hover:w-full"></span>
+                                            <span
+                                                class="absolute right-0 bottom-0 h-1/2 w-[2px] bg-orange-500 transition-all duration-500 ease-in-out group-hover:bottom-[50%] group-hover:h-full"></span>
+                                            <span
+                                                class="absolute right-0 bottom-0 w-1/2 h-[2px] bg-orange-500 transition-all duration-500 ease-in-out group-hover:right-[50%] group-hover:w-full"></span>
+                                            <span
+                                                class="absolute right-7 hidden    md:top-8 top-6  w-6 md:h-[3px] h-[2px] bg-white group-hover:bg-orange-500 md:group-hover:w-8 group-hover:w-5 md:group-hover:h-[5px] group-hover:h-[3px] transition-all duration-300 eas"></span>
+                                            <div
+                                                class="   duration-300 relative z-10 font-playfairDisplay md:text-[15px] text-[14px]  hover:text-[15px] md:hover:text-[16px]">
+                                                Explore
+                                            </div>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card 2 -->
+                    <div class="lg:pt-44 pt-28">
+                        <div class="shadow-2xl shadow-black ">
+                            <div class="game-card-bg  ">
+                                <div class="game-img-adj">
+                                    <img src="images/cards/f1.png" alt=""
+                                        class="2xl:w-[600px]    rounded-xl transition-all duration-500 ease-in-out transform hover:scale-105 hover:shadow-lg w-full object-cover   h-28 md:h-40 lg:h-52 xl:h-64 2xl:h-72  min-h-[150px] max-h-[px] max-w-[400px] lg:max-w-[450px]  xl:max-w-[550px] 2xl:max-w-[700px] shadow-lg shadow-black ">
+                                </div>
+                                <div class=" ">
+                                    <!-- Text Section with Animation -->
+                                    <div class="text-center text-white font-orbitron leading-tight">
+                                        <span id="" class="animated-heading">
+                                            <span
+                                                class="inline-block char text-[20px] xl:text-[31px] lg:text-[28px] md:text-[24px] font-extrabold gradient-text-orange">C</span>
+                                            <span
+                                                class="inline-block char text-[20px] xl:text-[31px] lg:text-[28px] md:text-[24px] font-extrabold gradient-text-orange">a</span>
+                                            <span
+                                                class="inline-block char text-[20px] xl:text-[31px] lg:text-[28px] md:text-[24px] font-extrabold gradient-text-orange">r</span>
+                                            <span
+                                                class="inline-block char text-[20px] xl:text-[31px] lg:text-[28px] md:text-[24px] font-extrabold gradient-text-orange">-</span>
+                                            <span
+                                                class="inline-block char text-[20px] xl:text-[31px] lg:text-[28px] md:text-[24px] font-extrabold gradient-text-orange">S</span>
+                                            <span
+                                                class="inline-block char text-[20px] xl:text-[31px] lg:text-[28px] md:text-[24px] font-extrabold gradient-text-orange">i</span>
+                                            <span
+                                                class="inline-block char text-[20px] xl:text-[31px] lg:text-[28px] md:text-[24px] font-extrabold gradient-text-orange">m</span>
+                                            <span
+                                                class="inline-block char text-[20px] xl:text-[31px] lg:text-[28px] md:text-[24px] font-extrabold gradient-text-orange">u</span>
+                                            <span
+                                                class="inline-block char text-[20px] xl:text-[31px] lg:text-[28px] md:text-[24px] font-extrabold gradient-text-orange">l</span>
+                                            <span
+                                                class="inline-block char text-[20px] xl:text-[31px] lg:text-[28px] md:text-[24px] font-extrabold gradient-text-orange">a</span>
+                                            <span
+                                                class="inline-block char text-[20px] xl:text-[31px] lg:text-[28px] md:text-[24px] font-extrabold gradient-text-orange">t</span>
+                                            <span
+                                                class="inline-block char text-[20px] xl:text-[31px] lg:text-[28px] md:text-[24px] font-extrabold gradient-text-orange">i</span>
+                                            <span
+                                                class="inline-block char text-[20px] xl:text-[31px] lg:text-[28px] md:text-[24px] font-extrabold gradient-text-orange">o</span>
+                                            <span
+                                                class="inline-block char text-[20px] xl:text-[31px] lg:text-[28px] md:text-[24px] font-extrabold gradient-text-orange">n</span>
+                                        </span>
+                                    </div>
+                                    <div class="card-prg-text"
+                                        style="text-shadow: 2px 2px 0px black, -2px -2px 0px black, 2px -2px 0px black, -2px 2px 0px black;">
+                                        <p class="inline-block text-center ">
+                                            Experience SpeedQuest by Ignipulse intense Android racing game. Race,
+                                            conquer
+                                            levels, and become ultimate champion.
+                                        </p>
+                                    </div>
+                                    <div class="flex justify-center p-5 ">
+                                        <button
+                                            class="bg-black text-orange-300 hover:text-orange-500 transition duration-300 ease-in-out relative w-32   h-12  overflow-hidden group border-orange-500 border-[1px] ">
+                                            <span
+                                                class="absolute left-0 top-0 h-1/2 w-[2px] bg-orange-500 transition-all duration-500 ease-in-out group-hover:top-[50%] group-hover:h-full"></span>
+                                            <span
+                                                class="absolute left-0 top-0 w-1/2 h-[2px] bg-orange-500 transition-all duration-500 ease-in-out group-hover:left-[50%] group-hover:w-full"></span>
+                                            <span
+                                                class="absolute right-0 bottom-0 h-1/2 w-[2px] bg-orange-500 transition-all duration-500 ease-in-out group-hover:bottom-[50%] group-hover:h-full"></span>
+                                            <span
+                                                class="absolute right-0 bottom-0 w-1/2 h-[2px] bg-orange-500 transition-all duration-500 ease-in-out group-hover:right-[50%] group-hover:w-full"></span>
+                                            <span
+                                                class="absolute right-7 hidden    md:top-8 top-6  w-6 md:h-[3px] h-[2px] bg-white group-hover:bg-orange-500 md:group-hover:w-8 group-hover:w-5 md:group-hover:h-[5px] group-hover:h-[3px] transition-all duration-300 eas"></span>
+                                            <div
+                                                class="   duration-300 relative z-10 font-playfairDisplay md:text-[15px] text-[14px]  hover:text-[15px] md:hover:text-[16px]">
+                                                Explore
+                                            </div>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- card 3 -->
+                    <div class="lg:pt-44 pt-28">
+                        <div class="shadow-2xl shadow-black">
+                            <div class="game-card-bg ">
+                                <div class="game-img-adj">
+                                    <img src="images/cards/f2.png" alt=""
+                                        class="2xl:w-[600px]    rounded-xl transition-all duration-500 ease-in-out transform hover:scale-105 hover:shadow-lg w-full object-cover   h-28 md:h-40 lg:h-52 xl:h-64 2xl:h-72  min-h-[150px] max-h-[px] max-w-[400px] lg:max-w-[450px]  xl:max-w-[550px] 2xl:max-w-[700px] shadow-lg shadow-black ">
+                                </div>
+                                <div class=" ">
+                                    <!-- Text Section with Animation -->
+                                    <div class="text-center text-white font-orbitron leading-tight">
+                                        <span id="animated-text-card3">
+                                            <span
+                                                class="inline-block char text-[20px] xl:text-[31px] lg:text-[28px] md:text-[24px] font-extrabold gradient-text-orange">X</span>
+                                            <span
+                                                class="inline-block char text-[20px] xl:text-[31px] lg:text-[28px] md:text-[24px] font-extrabold gradient-text-orange">-</span>
+                                            <span
+                                                class="inline-block char text-[20px] xl:text-[31px] lg:text-[28px] md:text-[24px] font-extrabold gradient-text-orange">F</span>
+                                            <span
+                                                class="inline-block char text-[20px] xl:text-[31px] lg:text-[28px] md:text-[24px] font-extrabold gradient-text-orange">i</span>
+                                            <span
+                                                class="inline-block char text-[20px] xl:text-[31px] lg:text-[28px] md:text-[24px] font-extrabold gradient-text-orange">g</span>
+                                            <span
+                                                class="inline-block char text-[20px] xl:text-[31px] lg:text-[28px] md:text-[24px] font-extrabold gradient-text-orange">h</span>
+                                            <span
+                                                class="inline-block char text-[20px] xl:text-[31px] lg:text-[28px] md:text-[24px] font-extrabold gradient-text-orange">t</span>
+                                            <span
+                                                class="inline-block char text-[20px] xl:text-[31px] lg:text-[28px] md:text-[24px] font-extrabold gradient-text-orange">e</span>
+                                            <span
+                                                class="inline-block char text-[20px] xl:text-[31px] lg:text-[28px] md:text-[24px] font-extrabold gradient-text-orange">r</span>
+                                        </span>
+                                    </div>
+                                    <div class="card-prg-text"
+                                        style="text-shadow: 2px 2px 0px black, -2px -2px 0px black, 2px -2px 0px black, -2px 2px 0px black;">
+                                        <p class="inline-block text-center">
+                                            Complete missions fires, transport items, and battle aliens across 3
+                                            environments, overcoming challenges to protect the city.
+                                        </p>
+                                    </div>
+                                    <div class="flex justify-center p-5 ">
+                                        <button
+                                            class="bg-black text-orange-300 hover:text-orange-500 transition duration-300 ease-in-out relative w-32   h-12  overflow-hidden group border-orange-500 border-[1px] ">
+                                            <span
+                                                class="absolute left-0 top-0 h-1/2 w-[2px] bg-orange-500 transition-all duration-500 ease-in-out group-hover:top-[50%] group-hover:h-full"></span>
+                                            <span
+                                                class="absolute left-0 top-0 w-1/2 h-[2px] bg-orange-500 transition-all duration-500 ease-in-out group-hover:left-[50%] group-hover:w-full"></span>
+                                            <span
+                                                class="absolute right-0 bottom-0 h-1/2 w-[2px] bg-orange-500 transition-all duration-500 ease-in-out group-hover:bottom-[50%] group-hover:h-full"></span>
+                                            <span
+                                                class="absolute right-0 bottom-0 w-1/2 h-[2px] bg-orange-500 transition-all duration-500 ease-in-out group-hover:right-[50%] group-hover:w-full"></span>
+                                            <span
+                                                class="absolute right-7 hidden    md:top-8 top-6  w-6 md:h-[3px] h-[2px] bg-white group-hover:bg-orange-500 md:group-hover:w-8 group-hover:w-5 md:group-hover:h-[5px] group-hover:h-[3px] transition-all duration-300 eas"></span>
+                                            <div
+                                                class="   duration-300 relative z-10 font-playfairDisplay md:text-[15px] text-[14px]  hover:text-[15px] md:hover:text-[16px]">
+                                                Explore
+                                            </div>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <!-- card 4 -->
+                    <div class="lg:pt-44 pt-28  ">
+                        <div class="shadow-2xl shadow-black">
+                            <div class="game-card-bg  ">
+                                <div class="game-img-adj">
+                                    <img src="images/cards/f4.png" alt=""
+                                        class="2xl:w-[600px]    rounded-xl transition-all duration-500 ease-in-out transform hover:scale-105 hover:shadow-lg w-full object-cover   h-28 md:h-40 lg:h-52 xl:h-64 2xl:h-72  min-h-[150px] max-h-[px] max-w-[400px] lg:max-w-[450px]  xl:max-w-[550px] 2xl:max-w-[700px] shadow-lg shadow-black ">
+                                </div>
+                                <div class=" ">
+                                    <!-- Text Section with Animation -->
+                                    <div class="text-center text-white font-orbitron leading-tight">
+                                        <span id="" class="animate-heading">
+                                            <span
+                                                class="inline-block char text-[20px] xl:text-[31px] lg:text-[28px] md:text-[24px] font-extrabold gradient-text-orange">A</span>
+                                            <span
+                                                class="inline-block char text-[20px] xl:text-[31px] lg:text-[28px] md:text-[24px] font-extrabold gradient-text-orange">n</span>
+                                            <span
+                                                class="inline-block char text-[20px] xl:text-[31px] lg:text-[28px] md:text-[24px] font-extrabold gradient-text-orange">t</span>
+                                            <span
+                                                class="inline-block char text-[20px] xl:text-[31px] lg:text-[28px] md:text-[24px] font-extrabold gradient-text-orange">o</span>
+                                            <span
+                                                class="inline-block char text-[20px] xl:text-[31px] lg:text-[28px] md:text-[24px] font-extrabold gradient-text-orange">n</span>
+
+                                        </span>
+                                    </div>
+
+                                    <div class="card-prg-text"
+                                        style="text-shadow: 2px 2px 0px black, -2px -2px 0px black, 2px -2px 0px black, -2px 2px 0px black;">
+                                        <p class="inline-block text-center">
+                                            We create diverse, engaging games on platforms, generating millions weekly
+                                            Explores exceptional playability appeal.
+                                        </p>
+                                    </div>
+                                    <div class="flex justify-center p-5 ">
+                                        <button
+                                            class="bg-black text-orange-300 hover:text-orange-500 transition duration-300 ease-in-out relative w-32   h-12  overflow-hidden group border-orange-500 border-[1px] ">
+                                            <span
+                                                class="absolute left-0 top-0 h-1/2 w-[2px] bg-orange-500 transition-all duration-500 ease-in-out group-hover:top-[50%] group-hover:h-full"></span>
+                                            <span
+                                                class="absolute left-0 top-0 w-1/2 h-[2px] bg-orange-500 transition-all duration-500 ease-in-out group-hover:left-[50%] group-hover:w-full"></span>
+                                            <span
+                                                class="absolute right-0 bottom-0 h-1/2 w-[2px] bg-orange-500 transition-all duration-500 ease-in-out group-hover:bottom-[50%] group-hover:h-full"></span>
+                                            <span
+                                                class="absolute right-0 bottom-0 w-1/2 h-[2px] bg-orange-500 transition-all duration-500 ease-in-out group-hover:right-[50%] group-hover:w-full"></span>
+                                            <span
+                                                class="absolute right-7 hidden    md:top-8 top-6  w-6 md:h-[3px] h-[2px] bg-white group-hover:bg-orange-500 md:group-hover:w-8 group-hover:w-5 md:group-hover:h-[5px] group-hover:h-[3px] transition-all duration-300 eas"></span>
+                                            <div
+                                                class="   duration-300 relative z-10 font-playfairDisplay md:text-[15px] text-[14px]  hover:text-[15px] md:hover:text-[16px]">
+                                                Explore
+                                            </div>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <!-- assets  -->
+        <div>
+            <!-- <div class="text-center py-4">
+                <h1 class="head-text">Assets</h1>
+            </div> -->
+            <div class="flex justify-center">
+                <img src="images/Assets2.png" alt="" class="md:w-[20%] text-center w-[31%] mb-10">
+            </div>
+
+            <!-- Tabs Section -->
+            <div id="tabs-section" class="relative w-full h-auto px-4 md:px-10">
+                <div
+                    class="relative grid grid-cols-4 bg-gradient-to-r from-blue-600 to-gray-800 rounded-lg overflow-hidden">
+                    <!-- Button 1 -->
+                    <button id="cars-tab"
+                        class="tabs group relative flex items-center justify-center py-4 hover:bg-blue-500 text-gray-300 focus:outline-none transition-all duration-500 ease-in-out">
+                        <span
+                            class="absolute inset-0 rounded-full border-2 border-transparent group-hover:border-blue-400 group-hover:rotate-[360deg] transition-all duration-500"></span>
+                        <span class="z-10">Cars</span>
+                    </button>
+                    <!-- Button 2 -->
+                    <button id="planes-tab"
+                        class="tabs group relative flex items-center justify-center py-4 hover:bg-orange-500 text-gray-300 focus:outline-none transition-all duration-500 ease-in-out">
+                        <span
+                            class="absolute inset-0 rounded-full border-2 border-transparent group-hover:border-orange-400 group-hover:rotate-[360deg] transition-all duration-500"></span>
+                        <span class="z-10">Environment</span>
+                    </button>
+                    <!-- Button 3 -->
+                    <button id="robots-tab"
+                        class="tabs group relative flex items-center justify-center py-4 hover:bg-green-500 text-gray-300 focus:outline-none transition-all duration-500 ease-in-out">
+                        <span
+                            class="absolute inset-0 rounded-full border-2 border-transparent group-hover:border-green-400 group-hover:rotate-[360deg] transition-all duration-500"></span>
+                        <span class="z-10">Robots</span>
+                    </button>
+                    <!-- Button 4 -->
+                    <button id="guns-tab"
+                        class="tabs group relative flex items-center justify-center py-4 hover:bg-red-500 text-gray-300 focus:outline-none transition-all duration-500 ease-in-out">
+                        <span
+                            class="absolute inset-0 rounded-full border-2 border-transparent group-hover:border-red-400 group-hover:rotate-[360deg] transition-all duration-500"></span>
+                        <span class="z-10">Guns</span>
+                    </button>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+            <!-- Sliders Section -->
+            <div id="content-container" class="w-full flex justify-center items-center">
+                <!-- Cars Slider -->
+                <div id="cars-slider" class="relative w-full  md:p-12 p-11  mx-auto overflow-hidden">
+                    <div class="swiper-container">
+                        <!-- Wrapper for slides -->
+                        <div class="swiper-wrapper  ">
+                            <!-- Slide 1 -->
+                            <div class="relative swiper-slide     s1">
+                                <div class="absolute inset-0 z-0 "></div>
+                                <div
+                                    class="relative z-10 flex flex-col items-center h-auto p-6 text-center   rounded-2xl">
+                                    <div class="flex flex-col w-full md:flex-row md:items-center">
+                                        <div class="flex justify-center w-full mb- md:w-2/5 md:mb-0">
+                                            <img src="./images/rendring/cars/9.png" alt=" Image" class="slider-img" />
+                                        </div>
+                                        <div class="w-full text-left md:w-3/5 md:px-8 lg:px-16">
+                                            <!-- <h4 class="mb-2 font-semibold text-md text-cart-heading font-orbitron">
+                                                
+                                             </h4> -->
+                                            <!-- Text Section with Animation -->
+                                            <div class=" text-white  leading-tight">
+                                                <span id=""
+                                                    class="animate-heading justify-center flex md:justify-start">
+                                                    <span class="slider-animate-heading  char">A</span>
+                                                    <span class="slider-animate-heading  char">e</span>
+                                                    <span class="slider-animate-heading  char">r</span>
+                                                    <span class="slider-animate-heading  char">o</span>
+                                                    <span class="slider-animate-heading  char">V</span>
+                                                    <span class="slider-animate-heading  char">a</span>
+                                                    <span class="slider-animate-heading  char">n</span>
+                                                    <span class="slider-animate-heading  char">e</span>
+
+
+
+
+
+                                                </span>
+                                            </div>
+                                            <p class="slider-prg"
+                                                style="text-shadow: 2px 2px 0px black, -2px -2px 0px black, 2px -2px 0px black, -2px 2px 0px black;">
+                                                AeroVane is a futuristic, aerodynamic sports car designed to slice
+                                                through the air with minimal resistance. Its sleek body and retractable
+                                                spoilers ensure top-notch speed and control. Powered by a
+                                                hybrid-electric engine, AeroVane delivers both power and efficiency,
+                                                making it a pioneer in modern speed machines.
+
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Slide 2 -->
+                            <div class="relative swiper-slide     s1">
+                                <div class="absolute inset-0 z-0 "></div>
+                                <div
+                                    class="relative z-10 flex flex-col items-center h-auto p-6 text-center   rounded-2xl">
+                                    <div class="flex flex-col w-full md:flex-row md:items-center">
+                                        <div class="flex justify-center w-full mb- md:w-2/5 md:mb-0">
+                                            <img src="./images/rendring/cars/car 2.png" alt=" Image" class="slider-img" />
+                                        </div>
+                                        <div class="w-full text-left md:w-3/5 md:px-8 lg:px-16">
+                                            <!-- <h4 class="mb-2 font-semibold text-md text-cart-heading font-orbitron">
+                                                
+                                             </h4> -->
+                                            <!-- Text Section with Animation -->
+                                            <div class=" text-white  leading-tight">
+                                                <span id=""
+                                                    class="animate-heading justify-center flex md:justify-start">
+                                                    <span class="slider-animate-heading  char">i</span>
+                                                    <span class="slider-animate-heading  char">g</span>
+                                                    <span class="slider-animate-heading  char">n</span>
+                                                    <span class="slider-animate-heading  char">i</span>
+                                                    <span class="slider-animate-heading  char">s</span>
+                                                    <span class="slider-animate-heading  char">V</span>
+                                                    <span class="slider-animate-heading  char">o</span>
+                                                    <span class="slider-animate-heading  char">l</span>
+                                                    <span class="slider-animate-heading  char">t</span>
+
+
+
+                                                </span>
+                                            </div>
+                                            <p class="slider-prg"
+                                                style="text-shadow: 2px 2px 0px black, -2px -2px 0px black, 2px -2px 0px black, -2px 2px 0px black;">
+                                                IgnisVolt is an electric hypercar known for its explosive acceleration
+                                                and fiery design. It’s equipped with a high-capacity battery pack and
+                                                ultra-fast charging technology. The car’s glowing accents and aggressive
+                                                stance give it a commanding presence on the road, symbolizing the future
+                                                of sustainable speed.
+
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Slide 3 -->
+                            <div class="relative swiper-slide     s1">
+                                <div class="absolute inset-0 z-0 "></div>
+                                <div
+                                    class="relative z-10 flex flex-col items-center h-auto p-6 text-center   rounded-2xl">
+                                    <div class="flex flex-col w-full md:flex-row md:items-center">
+                                        <div class="flex justify-center w-full mb- md:w-2/5 md:mb-0">
+                                            <img src="./images/rendring/cars/3.png" alt=" Image" class="slider-img" />
+                                        </div>
+                                        <div class="w-full text-left md:w-3/5 md:px-8 lg:px-16">
+                                            <!-- <h4 class="mb-2 font-semibold text-md text-cart-heading font-orbitron">
+                                                
+                                             </h4> -->
+                                            <!-- Text Section with Animation -->
+                                            <div class=" text-white  leading-tight">
+                                                <span id=""
+                                                    class="animate-heading justify-center flex md:justify-start">
+                                                    <span class="slider-animate-heading  char">L</span>
+                                                    <span class="slider-animate-heading  char">y</span>
+                                                    <span class="slider-animate-heading  char">n</span>
+                                                    <span class="slider-animate-heading  char">x</span>
+                                                    <span class="slider-animate-heading  char">D</span>
+                                                    <span class="slider-animate-heading  char">r</span>
+                                                    <span class="slider-animate-heading  char">i</span>
+                                                    <span class="slider-animate-heading  char">f</span>
+                                                    <span class="slider-animate-heading  char">t</span>
+
+
+                                                </span>
+                                            </div>
+                                            <p class="slider-prg"
+                                                style="text-shadow: 2px 2px 0px black, -2px -2px 0px black, 2px -2px 0px black, -2px 2px 0px black;">
+                                                LynxDrift is a precision-engineered drifting car built for
+                                                thrill-seekers. Its ultra-lightweight chassis and advanced suspension
+                                                system make cornering an art form. With a turbocharged V6 engine and
+                                                dynamic handling controls, LynxDrift dominates the track with effortless
+                                                flair.
+
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Slide 4 -->
+                            <div class="relative swiper-slide     s1">
+                                <div class="absolute inset-0 z-0 "></div>
+                                <div
+                                    class="relative z-10 flex flex-col items-center h-auto p-6 text-center   rounded-2xl">
+                                    <div class="flex flex-col w-full md:flex-row md:items-center">
+                                        <div class="flex justify-center w-full mb- md:w-2/5 md:mb-0">
+                                            <img src="./images/rendring/cars/4.png" alt=" Image" class="slider-img" />
+                                        </div>
+                                        <div class="w-full text-left md:w-3/5 md:px-8 lg:px-16">
+                                            <!-- <h4 class="mb-2 font-semibold text-md text-cart-heading font-orbitron">
+                                                
+                                             </h4> -->
+                                            <!-- Text Section with Animation -->
+                                            <div class=" text-white  leading-tight">
+                                                <span id=""
+                                                    class="animate-heading justify-center flex md:justify-start">
+                                                    <span class="slider-animate-heading  char">E</span>
+                                                    <span class="slider-animate-heading  char">c</span>
+                                                    <span class="slider-animate-heading  char">l</span>
+                                                    <span class="slider-animate-heading  char">i</span>
+                                                    <span class="slider-animate-heading  char">p</span>
+                                                    <span class="slider-animate-heading  char">s</span>
+                                                    <span class="slider-animate-heading  char">e</span>
+                                                    <span class="slider-animate-heading  char">X</span>
+
+
+                                                </span>
+                                            </div>
+                                            <p class="slider-prg"
+                                                style="text-shadow: 2px 2px 0px black, -2px -2px 0px black, 2px -2px 0px black, -2px 2px 0px black;">
+                                                EclipseX is a luxury coupe with an aura of mystery and sophistication.
+                                                Its midnight-black finish and starlight-inspired LED details make it
+                                                perfect for nighttime cruising. The powerful twin-turbo V8 engine roars
+                                                beneath its elegant exterior, blending luxury with raw performance.
+
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Slide 5 -->
+                            <div class="relative swiper-slide     s1">
+                                <div class="absolute inset-0 z-0 "></div>
+                                <div
+                                    class="relative z-10 flex flex-col items-center h-auto p-6 text-center   rounded-2xl">
+                                    <div class="flex flex-col w-full md:flex-row md:items-center">
+                                        <div class="flex justify-center w-full mb- md:w-2/5 md:mb-0">
+                                            <img src="./images/rendring/cars/5.png" alt=" Image" class="slider-img" />
+                                        </div>
+                                        <div class="w-full text-left md:w-3/5 md:px-8 lg:px-16">
+                                            <!-- <h4 class="mb-2 font-semibold text-md text-cart-heading font-orbitron">
+                                                
+                                             </h4> -->
+                                            <!-- Text Section with Animation -->
+                                            <div class=" text-white  leading-tight">
+                                                <span id=""
+                                                    class="animate-heading justify-center flex md:justify-start">
+                                                    <span class="slider-animate-heading  char">T</span>
+                                                    <span class="slider-animate-heading  char">h</span>
+                                                    <span class="slider-animate-heading  char">u</span>
+                                                    <span class="slider-animate-heading  char">n</span>
+                                                    <span class="slider-animate-heading  char">d</span>
+                                                    <span class="slider-animate-heading  char">e</span>
+                                                    <span class="slider-animate-heading  char">r</span>
+                                                    <span class="slider-animate-heading  char">E</span>
+                                                    <span class="slider-animate-heading  char">d</span>
+                                                    <span class="slider-animate-heading  char">g</span>
+                                                    <span class="slider-animate-heading  char">e</span>
+
+
+                                                </span>
+                                            </div>
+                                            <p class="slider-prg"
+                                                style="text-shadow: 2px 2px 0px black, -2px -2px 0px black, 2px -2px 0px black, -2px 2px 0px black;">
+                                                ThunderEdge is an off-road beast made for conquering the toughest
+                                                terrains. Its rugged tires, adaptive suspension, and high ground
+                                                clearance allow it to thrive in any environment. With a supercharged
+                                                diesel engine and weatherproof design, ThunderEdge is a true
+                                                adventurer’s
+
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Slide 6 -->
+                            <div class="relative swiper-slide     s1">
+                                <div class="absolute inset-0 z-0 "></div>
+                                <div
+                                    class="relative z-10 flex flex-col items-center h-auto p-6 text-center   rounded-2xl">
+                                    <div class="flex flex-col w-full md:flex-row md:items-center">
+                                        <div class="flex justify-center w-full mb- md:w-2/5 md:mb-0">
+                                            <img src="./images/rendring/cars/6.png" alt=" Image" class="slider-img" />
+                                        </div>
+                                        <div class="w-full text-left md:w-3/5 md:px-8 lg:px-16">
+                                            <!-- <h4 class="mb-2 font-semibold text-md text-cart-heading font-orbitron">
+                                                
+                                             </h4> -->
+                                            <!-- Text Section with Animation -->
+                                            <div class=" text-white  leading-tight">
+                                                <span id=""
+                                                    class="animate-heading justify-center flex md:justify-start">
+                                                    <span class="slider-animate-heading  char">C</span>
+                                                    <span class="slider-animate-heading  char">r</span>
+                                                    <span class="slider-animate-heading  char">y</span>
+                                                    <span class="slider-animate-heading  char">o</span>
+                                                    <span class="slider-animate-heading  char">F</span>
+                                                    <span class="slider-animate-heading  char">l</span>
+                                                    <span class="slider-animate-heading  char">a</span>
+                                                    <span class="slider-animate-heading  char">r</span>
+                                                    <span class="slider-animate-heading  char">e</span>
+
+
+                                                </span>
+                                            </div>
+                                            <p class="slider-prg"
+                                                style="text-shadow: 2px 2px 0px black, -2px -2px 0px black, 2px -2px 0px black, -2px 2px 0px black;">
+                                                CryoFlare is a futuristic concept car inspired by icy landscapes. Its
+                                                crystal-blue bodywork and LED light patterns give it a cutting-edge,
+                                                otherworldly vibe. Powered by hydrogen fuel cells, it’s as clean as it
+                                                is stylish. CryoFlare’s unique cooling system ensures peak performance
+                                                even under pressure.
+
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Slide 7 -->
+                            <div class="relative swiper-slide     s1">
+                                <div class="absolute inset-0 z-0 "></div>
+                                <div
+                                    class="relative z-10 flex flex-col items-center h-auto p-6 text-center   rounded-2xl">
+                                    <div class="flex flex-col w-full md:flex-row md:items-center">
+                                        <div class="flex justify-center w-full mb- md:w-2/5 md:mb-0">
+                                            <img src="./images/rendring/cars/7.png" alt=" Image" class="slider-img" />
+                                        </div>
+                                        <div class="w-full text-left md:w-3/5 md:px-8 lg:px-16">
+                                            <!-- <h4 class="mb-2 font-semibold text-md text-cart-heading font-orbitron">
+                                                
+                                             </h4> -->
+                                            <!-- Text Section with Animation -->
+                                            <div class=" text-white  leading-tight">
+                                                <span id=""
+                                                    class="animate-heading justify-center flex md:justify-start">
+                                                    <span class="slider-animate-heading  char">V</span>
+                                                    <span class="slider-animate-heading  char">o</span>
+                                                    <span class="slider-animate-heading  char">r</span>
+                                                    <span class="slider-animate-heading  char">t</span>
+                                                    <span class="slider-animate-heading  char">e</span>
+                                                    <span class="slider-animate-heading  char">X</span>
+                                                    <span class="slider-animate-heading  char">i</span>
+                                                    <span class="slider-animate-heading  char">o</span>
+                                                    <span class="slider-animate-heading  char">n</span>
+
+
+                                                </span>
+                                            </div>
+                                            <p class="slider-prg"
+                                                style="text-shadow: 2px 2px 0px black, -2px -2px 0px black, 2px -2px 0px black, -2px 2px 0px black;">
+                                                Vortexion is a hybrid supercar that combines raw energy with sleek
+                                                design. Its aerodynamic vortex-inspired fins and ultra-light carbon
+                                                fiber body make it one of the fastest cars on the market. The
+                                                dual-engine system delivers an electrifying balance between speed and
+                                                stability.
+
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Slide 8 -->
+                            <div class="relative swiper-slide     s1">
+                                <div class="absolute inset-0 z-0 "></div>
+                                <div
+                                    class="relative z-10 flex flex-col items-center h-auto p-6 text-center   rounded-2xl">
+                                    <div class="flex flex-col w-full md:flex-row md:items-center">
+                                        <div class="flex justify-center w-full mb- md:w-2/5 md:mb-0">
+                                            <img src="./images/rendring/cars/8.png" alt=" Image" class="slider-img" />
+                                        </div>
+                                        <div class="w-full text-left md:w-3/5 md:px-8 lg:px-16">
+                                            <!-- <h4 class="mb-2 font-semibold text-md text-cart-heading font-orbitron">
+                                                
+                                             </h4> -->
+                                            <!-- Text Section with Animation -->
+                                            <div class=" text-white  leading-tight">
+                                                <span id=""
+                                                    class="animate-heading justify-center flex md:justify-start">
+                                                    <span class="slider-animate-heading  char">S</span>
+                                                    <span class="slider-animate-heading  char">o</span>
+                                                    <span class="slider-animate-heading  char">l</span>
+                                                    <span class="slider-animate-heading  char">a</span>
+                                                    <span class="slider-animate-heading  char">r</span>
+                                                    <span class="slider-animate-heading  char">i</span>
+                                                    <span class="slider-animate-heading  char">s</span>
+                                                    <span class="slider-animate-heading  char">X</span>
+
+
+                                                </span>
+                                            </div>
+                                            <p class="slider-prg"
+                                                style="text-shadow: 2px 2px 0px black, -2px -2px 0px black, 2px -2px 0px black, -2px 2px 0px black;">
+                                                SolarisX is a solar-powered marvel designed for eco-friendly travel. Its
+                                                roof is lined with advanced solar panels that harness energy from the
+                                                sun, making it ideal for long journeys. With a futuristic design and
+                                                self-driving capabilities, SolarisX redefines sustainable luxury.
+
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Slide 9 -->
+                            <div class="relative swiper-slide     s1">
+                                <div class="absolute inset-0 z-0 "></div>
+                                <div
+                                    class="relative z-10 flex flex-col items-center h-auto p-6 text-center   rounded-2xl">
+                                    <div class="flex flex-col w-full md:flex-row md:items-center">
+                                        <div class="flex justify-center w-full mb- md:w-2/5 md:mb-0">
+                                            <img src="./images/rendring/cars/car 1.png" alt=" Image" class="slider-img" />
+                                        </div>
+                                        <div class="w-full text-left md:w-3/5 md:px-8 lg:px-16">
+                                            <!-- <h4 class="mb-2 font-semibold text-md text-cart-heading font-orbitron">
+                                                
+                                             </h4> -->
+                                            <!-- Text Section with Animation -->
+                                            <div class=" text-white  leading-tight">
+                                                <span id=""
+                                                    class="animate-heading justify-center flex md:justify-start">
+                                                    <span class="slider-animate-heading  char">S</span>
+                                                    <span class="slider-animate-heading  char">h</span>
+                                                    <span class="slider-animate-heading  char">a</span>
+                                                    <span class="slider-animate-heading  char">d</span>
+                                                    <span class="slider-animate-heading  char">o</span>
+                                                    <span class="slider-animate-heading  char">w</span>
+                                                    <span class="slider-animate-heading  char">P</span>
+                                                    <span class="slider-animate-heading  char">u</span>
+                                                    <span class="slider-animate-heading  char">l</span>
+                                                    <span class="slider-animate-heading  char">s</span>
+                                                    <span class="slider-animate-heading  char">e</span>
+
+
+
+                                                </span>
+                                            </div>
+                                            <p class="slider-prg"
+                                                style="text-shadow: 2px 2px 0px black, -2px -2px 0px black, 2px -2px 0px black, -2px 2px 0px black;">
+                                                ShadowPulse is a stealthy, high-performance sedan that blends power with
+                                                discretion. Its matte black finish and whisper-quiet electric engine
+                                                ensure it moves unnoticed, while the interior features cutting-edge
+                                                technology for ultimate comfort. ShadowPulse is a car built for modern
+                                                sophistication.
+
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Slide 10 -->
+                            <div class="relative swiper-slide     s1">
+                                <div class="absolute inset-0 z-0 "></div>
+                                <div
+                                    class="relative z-10 flex flex-col items-center h-auto p-6 text-center   rounded-2xl">
+                                    <div class="flex flex-col w-full md:flex-row md:items-center">
+                                        <div class="flex justify-center w-full mb- md:w-2/5 md:mb-0">
+                                            <img src="./images/rendring/cars/10.png" alt=" Image" class="slider-img" />
+                                        </div>
+                                        <div class="w-full text-left md:w-3/5 md:px-8 lg:px-16">
+                                            <!-- <h4 class="mb-2 font-semibold text-md text-cart-heading font-orbitron">
+                                                
+                                             </h4> -->
+                                            <!-- Text Section with Animation -->
+                                            <div class=" text-white  leading-tight">
+                                                <span id=""
+                                                    class="animate-heading justify-center flex md:justify-start">
+                                                    <span class="slider-animate-heading  char">S</span>
+                                                    <span class="slider-animate-heading  char">t</span>
+                                                    <span class="slider-animate-heading  char">o</span>
+                                                    <span class="slider-animate-heading  char">r</span>
+                                                    <span class="slider-animate-heading  char">m</span>
+                                                    <span class="slider-animate-heading  char">L</span>
+                                                    <span class="slider-animate-heading  char">u</span>
+                                                    <span class="slider-animate-heading  char">x</span>
+                                                    <span class="slider-animate-heading  char">e</span>
+
+
+                                                </span>
+                                            </div>
+                                            <p class="slider-prg"
+                                                style="text-shadow: 2px 2px 0px black, -2px -2px 0px black, 2px -2px 0px black, -2px 2px 0px black;">
+                                                StormLuxe is the pinnacle of luxury SUVs, combining bold design with
+                                                unmatched power. Its imposing grille, diamond-cut headlights, and plush
+                                                leather interior make it a masterpiece. Underneath, a hybrid V12 engine
+                                                provides smooth yet powerful performance, ensuring it can handle both
+                                                urban streets and rugged trails.
+
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- Navigation Buttons -->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+
+                        <!-- Pagination -->
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+
+                <!-- Swiper JS -->
+                <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+                <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+                <script>
+                    // Initialize Swiper
+                    const swiper = new Swiper('.swiper-container', {
+                        loop: true,
+                        slidesPerView: 1,
+                        spaceBetween: 48,
+                        navigation: {
+                            nextEl: '.swiper-button-next',
+                            prevEl: '.swiper-button-prev',
+                        },
+                        pagination: {
+                            el: '.swiper-pagination',
+                            clickable: true,
+                        },
+                    });
+
+                    // Remove 'hidden' class on initialization
+                    document.getElementById('cars-slider').classList.remove('hidden');
+                </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <!-- Enviromanet Slider -->
+
+                <div id="planes-slider" class="relative w-full  md:p-12 p-11  mx-auto overflow-hidden">
+                    <div class="swiper-container">
+                        <!-- Wrapper for slides -->
+                        <div class="swiper-wrapper  ">
+                            <!-- Slide 1 -->
+                            <div class="relative swiper-slide     s1">
+                                <div class="absolute inset-0 z-0 "></div>
+                                <div
+                                    class="relative z-10 flex flex-col items-center h-auto p-6 text-center   rounded-2xl">
+                                    <div class="flex flex-col w-full md:flex-row md:items-center">
+                                        <div class="flex justify-center w-full mb- md:w-2/5 md:mb-0">
+                                            <img src="./images/rendring/enviroment/18.png" alt=" Image" class="slider-img" />
+                                        </div>
+                                        <div class="w-full text-left md:w-3/5 md:px-8 lg:px-16">
+                                            <!-- <h4 class="mb-2 font-semibold text-md text-cart-heading font-orbitron">
+                                                
+                                             </h4> -->
+                                            <!-- Text Section with Animation -->
+                                            <div class=" text-white  leading-tight">
+                                                <span id=""
+                                                    class="animate-heading justify-center flex md:justify-start">
+                                                    <span class="slider-animate-heading  char">L</span>
+                                                    <span class="slider-animate-heading  char">a</span>
+                                                    <span class="slider-animate-heading  char">n</span>
+                                                    <span class="slider-animate-heading  char">t</span>
+                                                    <span class="slider-animate-heading  char">e</span>
+                                                    <span class="slider-animate-heading  char">r</span>
+                                                    <span class="slider-animate-heading  char"> n</span>
+                                                    <span class="slider-animate-heading  char">W</span>
+                                                    <span class="slider-animate-heading  char">h</span>
+                                                    <span class="slider-animate-heading  char">i</span>
+                                                    <span class="slider-animate-heading  char">s</span>
+                                                    <span class="slider-animate-heading  char">p</span>
+
+
+
+                                                </span>
+                                            </div>
+                                            <p class="slider-prg"
+                                                style="text-shadow: 2px 2px 0px black, -2px -2px 0px black, 2px -2px 0px black, -2px 2px 0px black;">
+                                                A tranquil refuge adorned with softly glowing lanterns, their light dancing across timeworn wooden frames. The air is thick with whispers of forgotten tales, carried by the gentle rustle of the wind. This space feels like stepping into a dream, where time slows, and serenity takes over. A perfect haven for reflection or moments of quiet wonder.
+
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                             <!-- Slide 2 -->
+                             <div class="relative swiper-slide     s1">
+                                <div class="absolute inset-0 z-0 "></div>
+                                <div
+                                    class="relative z-10 flex flex-col items-center h-auto p-6 text-center   rounded-2xl">
+                                    <div class="flex flex-col w-full md:flex-row md:items-center">
+                                        <div class="flex justify-center w-full mb- md:w-2/5 md:mb-0">
+                                            <img src="./images/rendring/enviroment/16.png" alt=" Image" class="slider-img" />
+                                        </div>
+                                        <div class="w-full text-left md:w-3/5 md:px-8 lg:px-16">
+                                            <!-- <h4 class="mb-2 font-semibold text-md text-cart-heading font-orbitron">
+                                                
+                                             </h4> -->
+                                            <!-- Text Section with Animation -->
+                                            <div class=" text-white  leading-tight">
+                                                <span id=""
+                                                    class="animate-heading justify-center flex md:justify-start">
+                                                    <span class="slider-animate-heading  char">M</span>
+                                                    <span class="slider-animate-heading  char">o</span>
+                                                    <span class="slider-animate-heading  char">o</span>
+                                                    <span class="slider-animate-heading  char">n</span>
+                                                    <span class="slider-animate-heading  char">C</span>
+                                                    <span class="slider-animate-heading  char">o</span>
+                                                    <span class="slider-animate-heading  char">v</span>
+                                                    <span class="slider-animate-heading  char">e</span> 
+
+
+                                                </span>
+                                            </div>
+                                            <p class="slider-prg"
+                                                style="text-shadow: 2px 2px 0px black, -2px -2px 0px black, 2px -2px 0px black, -2px 2px 0px black;">
+                                                Shrouded in the silvery glow of moonlight, this space radiates calmness and mystery. Its curved corners hold secrets of bygone eras, while the soft shadows invite an almost sacred stillness. It feels like a sanctuary carved from the night itself, perfect for those seeking solace under the watchful eye of the stars.
+
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                             <!-- Slide 3 -->
+                             <div class="relative swiper-slide     s1">
+                                <div class="absolute inset-0 z-0 "></div>
+                                <div
+                                    class="relative z-10 flex flex-col items-center h-auto p-6 text-center   rounded-2xl">
+                                    <div class="flex flex-col w-full md:flex-row md:items-center">
+                                        <div class="flex justify-center w-full mb- md:w-2/5 md:mb-0">
+                                            <img src="./images/rendring/enviroment/12.png" alt=" Image" class="slider-img" />
+                                        </div>
+                                        <div class="w-full text-left md:w-3/5 md:px-8 lg:px-16">
+                                            <!-- <h4 class="mb-2 font-semibold text-md text-cart-heading font-orbitron">
+                                                
+                                             </h4> -->
+                                            <!-- Text Section with Animation -->
+                                            <div class=" text-white  leading-tight">
+                                                <span id=""
+                                                    class="animate-heading justify-center flex md:justify-start">
+                                                    <span class="slider-animate-heading  char">C</span>
+                                                    <span class="slider-animate-heading  char">r</span>
+                                                    <span class="slider-animate-heading  char">i</span>
+                                                    <span class="slider-animate-heading  char">m</span>
+                                                    <span class="slider-animate-heading  char">N</span>
+                                                    <span class="slider-animate-heading  char">e</span>
+                                                    <span class="slider-animate-heading  char">s</span>
+                                                    <span class="slider-animate-heading  char">t</span> 
+
+
+                                                </span>
+                                            </div>
+                                            <p class="slider-prg"
+                                                style="text-shadow: 2px 2px 0px black, -2px -2px 0px black, 2px -2px 0px black, -2px 2px 0px black;">
+                                                With deep crimson hues wrapping its walls, this space exudes strength and warmth in equal measure. Every corner speaks of resilience, while intricate detailing adds an air of craftsmanship. It’s a structure that feels alive, holding within it the essence of history and the promise of shelter, protection, and untold stories.
+
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                             <!-- Slide 4 -->
+                             <div class="relative swiper-slide     s1">
+                                <div class="absolute inset-0 z-0 "></div>
+                                <div
+                                    class="relative z-10 flex flex-col items-center h-auto p-6 text-center   rounded-2xl">
+                                    <div class="flex flex-col w-full md:flex-row md:items-center">
+                                        <div class="flex justify-center w-full mb- md:w-2/5 md:mb-0">
+                                            <img src="./images/rendring/enviroment/21.png" alt=" Image" class="slider-img" />
+                                        </div>
+                                        <div class="w-full text-left md:w-3/5 md:px-8 lg:px-16">
+                                            <!-- <h4 class="mb-2 font-semibold text-md text-cart-heading font-orbitron">
+                                                
+                                             </h4> -->
+                                            <!-- Text Section with Animation -->
+                                            <div class=" text-white  leading-tight">
+                                                <span id=""
+                                                    class="animate-heading justify-center flex md:justify-start">
+                                                    <span class="slider-animate-heading  char">J</span>
+                                                    <span class="slider-animate-heading  char">a</span>
+                                                    <span class="slider-animate-heading  char">d</span>
+                                                    <span class="slider-animate-heading  char">e</span>
+                                                    <span class="slider-animate-heading  char">B</span>
+                                                    <span class="slider-animate-heading  char">l</span>
+                                                    <span class="slider-animate-heading  char">o</span>
+                                                    <span class="slider-animate-heading  char">o</span>
+                                                    <span class="slider-animate-heading  char">m</span>
+                                                    
+
+
+                                                </span>
+                                            </div>
+                                            <p class="slider-prg"
+                                                style="text-shadow: 2px 2px 0px black, -2px -2px 0px black, 2px -2px 0px black, -2px 2px 0px black;">
+                                                Draped in rich jade tones, this haven embraces the beauty of nature’s finest palette. Its fluid design and organic textures reflect the balance between simplicity and sophistication. It’s a space that feels alive, where every element, from its archways to its smallest details, invites tranquility and inspiration.
+
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                             <!-- Slide 5 -->
+                             <div class="relative swiper-slide     s1">
+                                <div class="absolute inset-0 z-0 "></div>
+                                <div
+                                    class="relative z-10 flex flex-col items-center h-auto p-6 text-center   rounded-2xl">
+                                    <div class="flex flex-col w-full md:flex-row md:items-center">
+                                        <div class="flex justify-center w-full mb- md:w-2/5 md:mb-0">
+                                            <img src="./images/rendring/enviroment/11.png" alt=" Image" class="slider-img" />
+                                        </div>
+                                        <div class="w-full text-left md:w-3/5 md:px-8 lg:px-16">
+                                            <!-- <h4 class="mb-2 font-semibold text-md text-cart-heading font-orbitron">
+                                                
+                                             </h4> -->
+                                            <!-- Text Section with Animation -->
+                                            <div class=" text-white  leading-tight">
+                                                <span id=""
+                                                    class="animate-heading justify-center flex md:justify-start">
+                                                    <span class="slider-animate-heading  char">G</span>
+                                                    <span class="slider-animate-heading  char">o</span>
+                                                    <span class="slider-animate-heading  char">l</span>
+                                                    <span class="slider-animate-heading  char">d</span>
+                                                    <span class="slider-animate-heading  char">P</span>
+                                                    <span class="slider-animate-heading  char">a</span>
+                                                    <span class="slider-animate-heading  char">v</span>
+                                                    <span class="slider-animate-heading  char">E</span>
+                                                    <span class="slider-animate-heading  char">d</span>
+                                                    <span class="slider-animate-heading  char">g</span>
+                                                    <span class="slider-animate-heading  char">e</span>
+
+
+                                                </span>
+                                            </div>
+                                            <p class="slider-prg"
+                                                style="text-shadow: 2px 2px 0px black, -2px -2px 0px black, 2px -2px 0px black, -2px 2px 0px black;">
+                                                A gleaming masterpiece of golden hues that capture the light of every sunrise and sunset. Its smooth surfaces and intricate patterns whisper of grandeur while maintaining a humble charm. This is a place where elegance meets function, and every moment spent here feels touched by quiet luxury.
+
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                             <!-- Slide 6 -->
+                             <div class="relative swiper-slide     s1">
+                                <div class="absolute inset-0 z-0 "></div>
+                                <div
+                                    class="relative z-10 flex flex-col items-center h-auto p-6 text-center   rounded-2xl">
+                                    <div class="flex flex-col w-full md:flex-row md:items-center">
+                                        <div class="flex justify-center w-full mb- md:w-2/5 md:mb-0">
+                                            <img src="./images/rendring/enviroment/9.png" alt=" Image" class="slider-img" />
+                                        </div>
+                                        <div class="w-full text-left md:w-3/5 md:px-8 lg:px-16">
+                                            <!-- <h4 class="mb-2 font-semibold text-md text-cart-heading font-orbitron">
+                                                
+                                             </h4> -->
+                                            <!-- Text Section with Animation -->
+                                            <div class=" text-white  leading-tight">
+                                                <span id=""
+                                                    class="animate-heading justify-center flex md:justify-start">
+                                                    <span class="slider-animate-heading  char">C</span>
+                                                    <span class="slider-animate-heading  char">l</span>
+                                                    <span class="slider-animate-heading  char">o</span>
+                                                    <span class="slider-animate-heading  char">u</span>
+                                                    <span class="slider-animate-heading  char">d</span>
+                                                    <span class="slider-animate-heading  char">N</span>
+                                                    <span class="slider-animate-heading  char">e</span>
+                                                    <span class="slider-animate-heading  char">s</span>
+                                                    <span class="slider-animate-heading  char">t</span> 
+
+
+                                                </span>
+                                            </div>
+                                            <p class="slider-prg"
+                                                style="text-shadow: 2px 2px 0px black, -2px -2px 0px black, 2px -2px 0px black, -2px 2px 0px black;">
+                                                Perched in the sky, this space feels weightless, as though it’s gently cradled by clouds. Its pale, airy design invites a deep sense of peace, and its ethereal presence blurs the lines between heaven and earth. It’s a retreat like no other, where dreams merge seamlessly with reality.
+
+
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                             <!-- Slide 7 -->
+                             <div class="relative swiper-slide     s1">
+                                <div class="absolute inset-0 z-0 "></div>
+                                <div
+                                    class="relative z-10 flex flex-col items-center h-auto p-6 text-center   rounded-2xl">
+                                    <div class="flex flex-col w-full md:flex-row md:items-center">
+                                        <div class="flex justify-center w-full mb- md:w-2/5 md:mb-0">
+                                            <img src="./images/rendring/enviroment/1.png" alt=" Image" class="slider-img" />
+                                        </div>
+                                        <div class="w-full text-left md:w-3/5 md:px-8 lg:px-16">
+                                            <!-- <h4 class="mb-2 font-semibold text-md text-cart-heading font-orbitron">
+                                                
+                                             </h4> -->
+                                            <!-- Text Section with Animation -->
+                                            <div class=" text-white  leading-tight">
+                                                <span id=""
+                                                    class="animate-heading justify-center flex md:justify-start">
+                                                    <span class="slider-animate-heading  char">E</span>
+                                                    <span class="slider-animate-heading  char">c</span>
+                                                    <span class="slider-animate-heading  char">h</span>
+                                                    <span class="slider-animate-heading  char">o</span>
+                                                    <span class="slider-animate-heading  char">H</span>
+                                                    <span class="slider-animate-heading  char">i</span>
+                                                    <span class="slider-animate-heading  char">l</span>
+                                                    <span class="slider-animate-heading  char">l</span> 
+
+
+                                                </span>
+                                            </div>
+                                            <p class="slider-prg"
+                                                style="text-shadow: 2px 2px 0px black, -2px -2px 0px black, 2px -2px 0px black, -2px 2px 0px black;">
+                                                Standing proud atop a hill, this structure seems to hum with the echoes of the past. Weathered by time yet steadfast, it feels steeped in history, its walls alive with stories waiting to be discovered. With its sweeping views and timeless charm, it is a beacon of nostalgia and quiet introspection.
+
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                             <!-- Slide 8 -->
+                             <div class="relative swiper-slide     s1">
+                                <div class="absolute inset-0 z-0 "></div>
+                                <div
+                                    class="relative z-10 flex flex-col items-center h-auto p-6 text-center   rounded-2xl">
+                                    <div class="flex flex-col w-full md:flex-row md:items-center">
+                                        <div class="flex justify-center w-full mb- md:w-2/5 md:mb-0">
+                                            <img src="./images/rendring/enviroment/2.png" alt=" Image" class="slider-img" />
+                                        </div>
+                                        <div class="w-full text-left md:w-3/5 md:px-8 lg:px-16">
+                                            <!-- <h4 class="mb-2 font-semibold text-md text-cart-heading font-orbitron">
+                                                
+                                             </h4> -->
+                                            <!-- Text Section with Animation -->
+                                            <div class=" text-white  leading-tight">
+                                                <span id=""
+                                                    class="animate-heading justify-center flex md:justify-start">
+                                                    <span class="slider-animate-heading  char">D</span>
+                                                    <span class="slider-animate-heading  char">a</span>
+                                                    <span class="slider-animate-heading  char">r</span>
+                                                    <span class="slider-animate-heading  char">g</span>
+                                                    <span class="slider-animate-heading  char">o</span>
+                                                    <span class="slider-animate-heading  char">n</span>
+                                                    <span class="slider-animate-heading  char">P</span>
+                                                    <span class="slider-animate-heading  char">e</span>
+                                                    <span class="slider-animate-heading  char">r</span>
+                                                    <span class="slider-animate-heading  char">c</span>
+                                                    <span class="slider-animate-heading  char">h</span>
+
+
+                                                </span>
+                                            </div>
+                                            <p class="slider-prg"
+                                                style="text-shadow: 2px 2px 0px black, -2px -2px 0px black, 2px -2px 0px black, -2px 2px 0px black;">
+                                                Rising like a mythical sentinel, this bold and striking space embodies the power of dragons in every detail. With its fierce curves and intricate carvings, it feels both commanding and graceful. It’s a place where strength and beauty converge, offering a sense of majesty that captures the imagination.
+
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                             <!-- Slide 9 -->
+                             <div class="relative swiper-slide     s1">
+                                <div class="absolute inset-0 z-0 "></div>
+                                <div
+                                    class="relative z-10 flex flex-col items-center h-auto p-6 text-center   rounded-2xl">
+                                    <div class="flex flex-col w-full md:flex-row md:items-center">
+                                        <div class="flex justify-center w-full mb- md:w-2/5 md:mb-0">
+                                            <img src="./images/rendring/enviroment/3.png" alt=" Image" class="slider-img" />
+                                        </div>
+                                        <div class="w-full text-left md:w-3/5 md:px-8 lg:px-16">
+                                            <!-- <h4 class="mb-2 font-semibold text-md text-cart-heading font-orbitron">
+                                                
+                                             </h4> -->
+                                            <!-- Text Section with Animation -->
+                                            <div class=" text-white  leading-tight">
+                                                <span id=""
+                                                    class="animate-heading justify-center flex md:justify-start">
+                                                    <span class="slider-animate-heading  char">S</span>
+                                                    <span class="slider-animate-heading  char">k</span>
+                                                    <span class="slider-animate-heading  char">y</span>
+                                                    <span class="slider-animate-heading  char">P</span>
+                                                    <span class="slider-animate-heading  char">o</span>
+                                                    <span class="slider-animate-heading  char">a</span>
+                                                    <span class="slider-animate-heading  char">r</span>
+                                                    <span class="slider-animate-heading  char">c</span>
+                                                    <span class="slider-animate-heading  char">h</span>
+                                                    
+
+
+                                                </span>
+                                            </div>
+                                            <p class="slider-prg"
+                                                style="text-shadow: 2px 2px 0px black, -2px -2px 0px black, 2px -2px 0px black, -2px 2px 0px black;">
+                                                Hovering just below the heavens, this space offers sweeping views of endless horizons. Its open design invites gentle breezes, while its thoughtful structure creates a sense of weightless wonder. This is a place where the sky meets the earth, and every moment feels like a fleeting glimpse of eternity.
+
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                             <!-- Slide 10 -->
+                             <div class="relative swiper-slide     s1">
+                                <div class="absolute inset-0 z-0 "></div>
+                                <div
+                                    class="relative z-10 flex flex-col items-center h-auto p-6 text-center   rounded-2xl">
+                                    <div class="flex flex-col w-full md:flex-row md:items-center">
+                                        <div class="flex justify-center w-full mb- md:w-2/5 md:mb-0">
+                                            <img src="./images/rendring/enviroment/4.png" alt=" Image" class="slider-img" />
+                                        </div>
+                                        <div class="w-full text-left md:w-3/5 md:px-8 lg:px-16">
+                                            <!-- <h4 class="mb-2 font-semibold text-md text-cart-heading font-orbitron">
+                                                
+                                             </h4> -->
+                                            <!-- Text Section with Animation -->
+                                            <div class=" text-white  leading-tight">
+                                                <span id=""
+                                                    class="animate-heading justify-center flex md:justify-start">
+                                                    <span class="slider-animate-heading  char">A</span>
+                                                    <span class="slider-animate-heading  char">m</span>
+                                                    <span class="slider-animate-heading  char">b</span>
+                                                    <span class="slider-animate-heading  char">e</span>
+                                                    <span class="slider-animate-heading  char">r</span>
+                                                    <span class="slider-animate-heading  char">R</span>
+                                                    <span class="slider-animate-heading  char">e</span>
+                                                    <span class="slider-animate-heading  char">s</span>
+                                                    <span class="slider-animate-heading  char">t</span> 
+
+
+                                                </span>
+                                            </div>
+                                            <p class="slider-prg"
+                                                style="text-shadow: 2px 2px 0px black, -2px -2px 0px black, 2px -2px 0px black, -2px 2px 0px black;">
+                                                Bathed in a warm amber glow, this inviting sanctuary radiates comfort and familiarity. Its golden tones create a soothing atmosphere, while its intricate details hint at a deep connection to history. It’s a space where old meets new, a timeless retreat that feels alive with stories untold.
+
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                             <!-- Slide 11 -->
+                             <div class="relative swiper-slide     s1">
+                                <div class="absolute inset-0 z-0 "></div>
+                                <div
+                                    class="relative z-10 flex flex-col items-center h-auto p-6 text-center   rounded-2xl">
+                                    <div class="flex flex-col w-full md:flex-row md:items-center">
+                                        <div class="flex justify-center w-full mb- md:w-2/5 md:mb-0">
+                                            <img src="./images/rendring/enviroment/20.png" alt=" Image" class="slider-img" />
+                                        </div>
+                                        <div class="w-full text-left md:w-3/5 md:px-8 lg:px-16">
+                                            <!-- <h4 class="mb-2 font-semibold text-md text-cart-heading font-orbitron">
+                                                
+                                             </h4> -->
+                                            <!-- Text Section with Animation -->
+                                            <div class=" text-white  leading-tight">
+                                                <span id=""
+                                                    class="animate-heading justify-center flex md:justify-start">
+                                                    <span class="slider-animate-heading  char">M</span>
+                                                    <span class="slider-animate-heading  char">i</span>
+                                                    <span class="slider-animate-heading  char">s</span>
+                                                    <span class="slider-animate-heading  char">t</span>
+                                                    <span class="slider-animate-heading  char">H</span>
+                                                    <span class="slider-animate-heading  char">e</span>
+                                                    <span class="slider-animate-heading  char">a</span>
+                                                    <span class="slider-animate-heading  char">v</span>
+                                                    <span class="slider-animate-heading  char">e</span>
+                                                    <span class="slider-animate-heading  char">n</span> 
+
+
+                                                </span>
+                                            </div>
+                                            <p class="slider-prg"
+                                                style="text-shadow: 2px 2px 0px black, -2px -2px 0px black, 2px -2px 0px black, -2px 2px 0px black;">
+                                                Veiled in soft, rolling mist, this secluded space carries an air of quiet mystery. Its shadowed alcoves and graceful curves evoke a sense of wonder, as if it exists between worlds. It’s a haven where imagination takes flight, and every moment is filled with possibilities hidden in the fog.
+
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                             <!-- Slide 12 -->
+                             <div class="relative swiper-slide     s1">
+                                <div class="absolute inset-0 z-0 "></div>
+                                <div
+                                    class="relative z-10 flex flex-col items-center h-auto p-6 text-center   rounded-2xl">
+                                    <div class="flex flex-col w-full md:flex-row md:items-center">
+                                        <div class="flex justify-center w-full mb- md:w-2/5 md:mb-0">
+                                            <img src="./images/rendring/enviroment/8.png" alt=" Image" class="slider-img" />
+                                        </div>
+                                        <div class="w-full text-left md:w-3/5 md:px-8 lg:px-16">
+                                            <!-- <h4 class="mb-2 font-semibold text-md text-cart-heading font-orbitron">
+                                                
+                                             </h4> -->
+                                            <!-- Text Section with Animation -->
+                                            <div class=" text-white  leading-tight">
+                                                <span id=""
+                                                    class="animate-heading justify-center flex md:justify-start">
+                                                    <span class="slider-animate-heading  char">W</span>
+                                                    <span class="slider-animate-heading  char">i</span>
+                                                    <span class="slider-animate-heading  char">l</span>
+                                                    <span class="slider-animate-heading  char">l</span>
+                                                    <span class="slider-animate-heading  char">o</span>
+                                                    <span class="slider-animate-heading  char">N</span>
+                                                    <span class="slider-animate-heading  char">e</span>
+                                                    <span class="slider-animate-heading  char">s</span>
+                                                    <span class="slider-animate-heading  char">t</span> 
+
+
+                                                </span>
+                                            </div>
+                                            <p class="slider-prg"
+                                                style="text-shadow: 2px 2px 0px black, -2px -2px 0px black, 2px -2px 0px black, -2px 2px 0px black;">
+                                                Nestled within a grove of willows, this charming retreat feels deeply connected to nature. Its rustic design and gentle features blend harmoniously with its surroundings, offering peace and refuge. A space of quiet beauty, it whispers of harmony, inviting you to slow down and simply be.
+
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- Navigation Buttons -->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+
+                        <!-- Pagination -->
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+
+                <!-- Swiper JS -->
+                <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+                <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+                <script>
+                    // Initialize Swiper
+                    const swiper3 = new Swiper('.swiper-container', {
+                        loop: true,
+                        slidesPerView: 1,
+                        spaceBetween: 48,
+                        navigation: {
+                            nextEl: '.swiper-button-next',
+                            prevEl: '.swiper-button-prev',
+                        },
+                        pagination: {
+                            el: '.swiper-pagination',
+                            clickable: true,
+                        },
+                    });
+
+                    // Remove 'hidden' class on initialization
+                    document.getElementById('cars-slider').classList.remove('hidden');
+                </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <!-- Robots Slider -->
+
+                <div id="robots-slider" class="relative w-full  md:p-12 p-11  mx-auto overflow-hidden">
+                    <div class="swiper-container">
+                        <!-- Wrapper for slides -->
+                        <div class="swiper-wrapper  ">
+                            <!-- Slide 1 -->
+                            <div class="relative swiper-slide     s1">
+                                <div class="absolute inset-0 z-0 "></div>
+                                <div
+                                    class="relative z-10 flex flex-col items-center h-auto p-6 text-center   rounded-2xl">
+                                    <div class="flex flex-col w-full md:flex-row md:items-center">
+                                        <div class="flex justify-center w-full mb- md:w-2/5 md:mb-0">
+                                            <img src="./images/rendring/robots/1.png" alt=" Image" class="slider-img" />
+                                        </div>
+                                        <div class="w-full text-left md:w-3/5 md:px-8 lg:px-16">
+                                            <!-- <h4 class="mb-2 font-semibold text-md text-cart-heading font-orbitron">
+                                                
+                                             </h4> -->
+                                            <!-- Text Section with Animation -->
+                                            <div class=" text-white  leading-tight">
+                                                <span id=""
+                                                    class="animate-heading justify-center flex md:justify-start">
+                                                    <span class="slider-animate-heading  char">B</span>
+                                                    <span class="slider-animate-heading  char">l</span>
+                                                    <span class="slider-animate-heading  char">a</span>
+                                                    <span class="slider-animate-heading  char">d</span>
+                                                    <span class="slider-animate-heading  char">e</span>
+                                                    <span class="slider-animate-heading  char">S</span>
+                                                    <span class="slider-animate-heading  char">t</span>
+                                                    <span class="slider-animate-heading  char">o</span>
+                                                    <span class="slider-animate-heading  char">r</span>
+                                                    <span class="slider-animate-heading  char">m</span>
+
+
+
+                                                </span>
+                                            </div>
+                                            <p class="slider-prg"
+                                                style="text-shadow: 2px 2px 0px black, -2px -2px 0px black, 2px -2px 0px black, -2px 2px 0px black;">
+                                                BladeStorm is a lightning-fast robot armed with spinning saw blades and
+                                                high-precision laser cutters. Its core design focuses on slicing through
+                                                any material with ease, making it a nightmare for heavily armored
+                                                enemies. With unmatched speed and destructive accuracy, BladeStorm
+                                                dominates in close-range combat.
+
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Slide 2 -->
+                            <div class="relative swiper-slide     s1">
+                                <div class="absolute inset-0 z-0 "></div>
+                                <div
+                                    class="relative z-10 flex flex-col items-center h-auto p-6 text-center   rounded-2xl">
+                                    <div class="flex flex-col w-full md:flex-row md:items-center">
+                                        <div class="flex justify-center w-full mb- md:w-2/5 md:mb-0">
+                                            <img src="./images/rendring/robots/2.png" alt=" Image" class="slider-img" />
+                                        </div>
+                                        <div class="w-full text-left md:w-3/5 md:px-8 lg:px-16">
+                                            <!-- <h4 class="mb-2 font-semibold text-md text-cart-heading font-orbitron">
+                                                
+                                             </h4> -->
+                                            <!-- Text Section with Animation -->
+                                            <div class=" text-white  leading-tight">
+                                                <span id=""
+                                                    class="animate-heading justify-center flex md:justify-start">
+                                                    <span class="slider-animate-heading  char">I</span>
+                                                    <span class="slider-animate-heading  char">r</span>
+                                                    <span class="slider-animate-heading  char">o</span>
+                                                    <span class="slider-animate-heading  char">n</span>
+                                                    <span class="slider-animate-heading  char">F</span>
+                                                    <span class="slider-animate-heading  char">a</span>
+                                                    <span class="slider-animate-heading  char">n</span>
+                                                    <span class="slider-animate-heading  char">g</span>
+
+                                                </span>
+                                            </div>
+                                            <p class="slider-prg"
+                                                style="text-shadow: 2px 2px 0px black, -2px -2px 0px black, 2px -2px 0px black, -2px 2px 0px black;">
+                                                IronFang is a fortress on legs, built for raw power and durability. Its
+                                                razor-sharp steel claws can crush through reinforced metal, while its
+                                                heavy armor protects it from even the strongest attacks. IronFang
+                                                thrives in brutal hand-to-hand combat, dismantling foes with relentless
+                                                strength.
+
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Slide 4 -->
+                            <div class="relative swiper-slide     s1">
+                                <div class="absolute inset-0 z-0 "></div>
+                                <div
+                                    class="relative z-10 flex flex-col items-center h-auto p-6 text-center   rounded-2xl">
+                                    <div class="flex flex-col w-full md:flex-row md:items-center">
+                                        <div class="flex justify-center w-full mb- md:w-2/5 md:mb-0">
+                                            <img src="./images/rendring/robots/4.png" alt=" Image" class="slider-img" />
+                                        </div>
+                                        <div class="w-full text-left md:w-3/5 md:px-8 lg:px-16">
+                                            <!-- <h4 class="mb-2 font-semibold text-md text-cart-heading font-orbitron">
+                                                
+                                             </h4> -->
+                                            <!-- Text Section with Animation -->
+                                            <div class=" text-white  leading-tight">
+                                                <span id=""
+                                                    class="animate-heading justify-center flex md:justify-start">
+                                                    <span class="slider-animate-heading  char">P</span>
+                                                    <span class="slider-animate-heading  char">y</span>
+                                                    <span class="slider-animate-heading  char">r</span>
+                                                    <span class="slider-animate-heading  char">o</span>
+                                                    <span class="slider-animate-heading  char">C</span>
+                                                    <span class="slider-animate-heading  char">l</span>
+                                                    <span class="slider-animate-heading  char">a</span>
+                                                    <span class="slider-animate-heading  char">s</span>
+                                                    <span class="slider-animate-heading  char">h</span>
+
+
+                                                </span>
+                                            </div>
+                                            <p class="slider-prg"
+                                                style="text-shadow: 2px 2px 0px black, -2px -2px 0px black, 2px -2px 0px black, -2px 2px 0px black;">
+                                                PyroClash is a fire-wielding beast built for chaos and destruction.
+                                                Equipped with dual flamethrowers, explosive thermal grenades, and a
+                                                heat-resistant shield, it can turn the battlefield into a blazing
+                                                inferno. Its fiery attacks overwhelm enemies, leaving them with no room
+                                                to counter.
+
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Slide 5 -->
+                             
+                            <!-- Slide 6 -->
+                            <div class="relative swiper-slide     s1">
+                                <div class="absolute inset-0 z-0 "></div>
+                                <div
+                                    class="relative z-10 flex flex-col items-center h-auto p-6 text-center   rounded-2xl">
+                                    <div class="flex flex-col w-full md:flex-row md:items-center">
+                                        <div class="flex justify-center w-full mb- md:w-2/5 md:mb-0">
+                                            <img src="./images/rendring/robots/6.png" alt=" Image" class="slider-img" />
+                                        </div>
+                                        <div class="w-full text-left md:w-3/5 md:px-8 lg:px-16">
+                                            <!-- <h4 class="mb-2 font-semibold text-md text-cart-heading font-orbitron">
+                                                
+                                             </h4> -->
+                                            <!-- Text Section with Animation -->
+                                            <div class=" text-white  leading-tight">
+                                                <span id=""
+                                                    class="animate-heading justify-center flex md:justify-start">
+                                                    <span class="slider-animate-heading  char">S</span>
+                                                    <span class="slider-animate-heading  char">h</span>
+                                                    <span class="slider-animate-heading  char">a</span>
+                                                    <span class="slider-animate-heading  char">d</span>
+                                                    <span class="slider-animate-heading  char">o</span>
+                                                    <span class="slider-animate-heading  char">R</span>
+                                                    <span class="slider-animate-heading  char">a</span>
+                                                    <span class="slider-animate-heading  char">z</span>
+                                                    <span class="slider-animate-heading  char">e</span>
+
+
+                                                </span>
+                                            </div>
+                                            <p class="slider-prg"
+                                                style="text-shadow: 2px 2px 0px black, -2px -2px 0px black, 2px -2px 0px black, -2px 2px 0px black;">
+                                                ShadowRaze is a master of stealth and deception. Using cloaking
+                                                technology, it can become invisible and strike without warning. Its
+                                                rapid strikes and smoke-generating modules disorient enemies, making it
+                                                an unpredictable force on the battlefield. ShadowRaze is the perfect
+                                                assassin robot.
+
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Slide 7 -->
+                            <div class="relative swiper-slide     s1">
+                                <div class="absolute inset-0 z-0 "></div>
+                                <div
+                                    class="relative z-10 flex flex-col items-center h-auto p-6 text-center   rounded-2xl">
+                                    <div class="flex flex-col w-full md:flex-row md:items-center">
+                                        <div class="flex justify-center w-full mb- md:w-2/5 md:mb-0">
+                                            <img src="./images/rendring/robots/7.png" alt=" Image" class="slider-img" />
+                                        </div>
+                                        <div class="w-full text-left md:w-3/5 md:px-8 lg:px-16">
+                                            <!-- <h4 class="mb-2 font-semibold text-md text-cart-heading font-orbitron">
+                                                
+                                             </h4> -->
+                                            <!-- Text Section with Animation -->
+                                            <div class=" text-white  leading-tight">
+                                                <span id=""
+                                                    class="animate-heading justify-center flex md:justify-start">
+                                                    <span class="slider-animate-heading  char">V</span>
+                                                    <span class="slider-animate-heading  char">e</span>
+                                                    <span class="slider-animate-heading  char">n</span>
+                                                    <span class="slider-animate-heading  char">o</span>
+                                                    <span class="slider-animate-heading  char">m</span>
+                                                    <span class="slider-animate-heading  char">S</span>
+                                                    <span class="slider-animate-heading  char">t</span>
+                                                    <span class="slider-animate-heading  char">r</span>
+                                                    <span class="slider-animate-heading  char">i</span>
+                                                    <span class="slider-animate-heading  char">k</span>
+                                                    <span class="slider-animate-heading  char">e</span>
+
+
+                                                </span>
+                                            </div>
+                                            <p class="slider-prg"
+                                                style="text-shadow: 2px 2px 0px black, -2px -2px 0px black, 2px -2px 0px black, -2px 2px 0px black;">
+                                                VenomStrike is a toxic terror, deploying venom-laced projectiles and
+                                                poisonous gas clouds to overwhelm opponents. Its corrosive attacks
+                                                weaken enemy armor and systems over time, leaving them vulnerable.
+                                                VenomStrike specializes in attrition warfare, ensuring no one escapes
+                                                unscathed.
+
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Slide 8 -->
+                            <div class="relative swiper-slide     s1">
+                                <div class="absolute inset-0 z-0 "></div>
+                                <div
+                                    class="relative z-10 flex flex-col items-center h-auto p-6 text-center   rounded-2xl">
+                                    <div class="flex flex-col w-full md:flex-row md:items-center">
+                                        <div class="flex justify-center w-full mb- md:w-2/5 md:mb-0">
+                                            <img src="./images/rendring/robots/8.png" alt=" Image" class="slider-img" />
+                                        </div>
+                                        <div class="w-full text-left md:w-3/5 md:px-8 lg:px-16">
+                                            <!-- <h4 class="mb-2 font-semibold text-md text-cart-heading font-orbitron">
+                                                
+                                             </h4> -->
+                                            <!-- Text Section with Animation -->
+                                            <div class=" text-white  leading-tight">
+                                                <span id=""
+                                                    class="animate-heading justify-center flex md:justify-start">
+                                                    <span class="slider-animate-heading  char">T</span>
+                                                    <span class="slider-animate-heading  char">i</span>
+                                                    <span class="slider-animate-heading  char">t</span>
+                                                    <span class="slider-animate-heading  char">a</span>
+                                                    <span class="slider-animate-heading  char">n</span>
+                                                    <span class="slider-animate-heading  char">B</span>
+                                                    <span class="slider-animate-heading  char">l</span>
+                                                    <span class="slider-animate-heading  char">a</span>
+                                                    <span class="slider-animate-heading  char">z</span>
+                                                    <span class="slider-animate-heading  char">e</span>
+
+
+                                                </span>
+                                            </div>
+                                            <p class="slider-prg"
+                                                style="text-shadow: 2px 2px 0px black, -2px -2px 0px black, 2px -2px 0px black, -2px 2px 0px black;">
+                                                TitanBlaze is a colossus armed with molten flame swords and
+                                                indestructible shields. Its towering presence on the battlefield
+                                                intimidates enemies, while its devastating strikes can cleave through
+                                                even the toughest defenses. TitanBlaze is an unstoppable force in
+                                                one-on-one combat.
+
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Slide 9 -->
+                             
+                            <!-- Slide 10 -->
+                            
+
+                        </div>
+
+                        <!-- Navigation Buttons -->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+
+                        <!-- Pagination -->
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+
+                <!-- Swiper JS -->
+                <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+                <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+                <script>
+                    // Initialize Swiper
+                    const swiper1 = new Swiper('.swiper-container', {
+                        loop: true,
+                        slidesPerView: 1,
+                        spaceBetween: 48,
+                        navigation: {
+                            nextEl: '.swiper-button-next',
+                            prevEl: '.swiper-button-prev',
+                        },
+                        pagination: {
+                            el: '.swiper-pagination',
+                            clickable: true,
+                        },
+                    });
+
+                    // Remove 'hidden' class on initialization
+                    document.getElementById('cars-slider').classList.remove('hidden');
+                </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <!-- Guns Slider -->
+                <div id="guns-slider" class="relative w-full  md:p-12 p-11  mx-auto overflow-hidden">
+                    <div class="swiper-container">
+                        <!-- Wrapper for slides -->
+                        <div class="swiper-wrapper  ">
+                            <!-- Slide 1 -->
+                            <div class="relative swiper-slide     s1">
+                                <div class="absolute inset-0 z-0 "></div>
+                                <div
+                                    class="relative z-10 flex flex-col items-center h-auto p-6 text-center   rounded-2xl">
+                                    <div class="flex flex-col w-full md:flex-row md:items-center">
+                                        <div class="flex justify-center w-full mb- md:w-2/5 md:mb-0">
+                                            <img src="./images/rendring/guns/1.png" alt=" Image" class="slider-img" />
+                                        </div>
+                                        <div class="w-full text-left md:w-3/5 md:px-8 lg:px-16">
+                                            <!-- <h4 class="mb-2 font-semibold text-md text-cart-heading font-orbitron">
+                                                
+                                             </h4> -->
+                                            <!-- Text Section with Animation -->
+                                            <div class=" text-white  leading-tight">
+                                                <span id=""
+                                                    class="animate-heading justify-center flex md:justify-start">
+                                                    <span class="slider-animate-heading  char">S</span>
+                                                    <span class="slider-animate-heading  char">h</span>
+                                                    <span class="slider-animate-heading  char">a</span>
+                                                    <span class="slider-animate-heading  char">d</span>
+                                                    <span class="slider-animate-heading  char">o</span>
+                                                    <span class="slider-animate-heading  char">w</span>
+                                                    <span class="slider-animate-heading  char">F</span>
+                                                    <span class="slider-animate-heading  char">a</span>
+                                                    <span class="slider-animate-heading  char">n</span>
+                                                    <span class="slider-animate-heading  char">g</span>
+
+
+
+                                                </span>
+                                            </div>
+                                            <p class="slider-prg"
+                                                style="text-shadow: 2px 2px 0px black, -2px -2px 0px black, 2px -2px 0px black, -2px 2px 0px black;">
+                                                This weapon is the epitome of stealth and precision, built for those who
+                                                need to strike from the shadows. With a dark, sleek finish that blends
+                                                seamlessly into any environment, it’s designed to eliminate targets
+                                                without detection. Whether in urban spaces or dense forests, this weapon
+                                                ensures efficiency in every quiet operation.
+
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Slide 1 -->
+                            <div class="relative swiper-slide     s1">
+                                <div class="absolute inset-0 z-0 "></div>
+                                <div
+                                    class="relative z-10 flex flex-col items-center h-auto p-6 text-center   rounded-2xl">
+                                    <div class="flex flex-col w-full md:flex-row md:items-center">
+                                        <div class="flex justify-center w-full mb- md:w-2/5 md:mb-0">
+                                            <img src="./images/rendring/guns/2.png" alt=" Image" class="slider-img" />
+                                        </div>
+                                        <div class="w-full text-left md:w-3/5 md:px-8 lg:px-16">
+                                            <!-- <h4 class="mb-2 font-semibold text-md text-cart-heading font-orbitron">
+                    
+                 </h4> -->
+                                            <!-- Text Section with Animation -->
+                                            <div class=" text-white  leading-tight">
+                                                <span id=""
+                                                    class="animate-heading justify-center flex md:justify-start">
+                                                    <span class="slider-animate-heading  char">I</span>
+                                                    <span class="slider-animate-heading  char">n</span>
+                                                    <span class="slider-animate-heading  char">f</span>
+                                                    <span class="slider-animate-heading  char">e</span>
+                                                    <span class="slider-animate-heading  char">r</span>
+                                                    <span class="slider-animate-heading  char">o</span>
+                                                    <span class="slider-animate-heading  char">V</span>
+                                                    <span class="slider-animate-heading  char">e</span>
+                                                    <span class="slider-animate-heading  char">x</span>
+
+
+
+
+                                                </span>
+                                            </div>
+                                            <p class="slider-prg"
+                                                style="text-shadow: 2px 2px 0px black, -2px -2px 0px black, 2px -2px 0px black, -2px 2px 0px black;">
+                                                A weapon crafted for chaos and destruction, perfect for those who need
+                                                to clear space quickly and decisively. Its flame-spewing capabilities
+                                                make it ideal for flushing out enemies in confined areas, while its
+                                                advanced fuel system ensures sustained firepower. The intense heat it
+                                                generates can melt through most defenses, leaving nothing but scorched
+                                                earth in its wake.
+
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Slide 3 -->
+                            <div class="relative swiper-slide     s1">
+                                <div class="absolute inset-0 z-0 "></div>
+                                <div
+                                    class="relative z-10 flex flex-col items-center h-auto p-6 text-center   rounded-2xl">
+                                    <div class="flex flex-col w-full md:flex-row md:items-center">
+                                        <div class="flex justify-center w-full mb- md:w-2/5 md:mb-0">
+                                            <img src="./images/rendring/guns/3.png" alt=" Image" class="slider-img" />
+                                        </div>
+                                        <div class="w-full text-left md:w-3/5 md:px-8 lg:px-16">
+                                            <!-- <h4 class="mb-2 font-semibold text-md text-cart-heading font-orbitron">
+                    
+                 </h4> -->
+                                            <!-- Text Section with Animation -->
+                                            <div class=" text-white  leading-tight">
+                                                <span id=""
+                                                    class="animate-heading justify-center flex md:justify-start">
+                                                    <span class="slider-animate-heading  char">S</span>
+                                                    <span class="slider-animate-heading  char">t</span>
+                                                    <span class="slider-animate-heading  char">o</span>
+                                                    <span class="slider-animate-heading  char">r</span>
+                                                    <span class="slider-animate-heading  char">m</span>
+                                                    <span class="slider-animate-heading  char">p</span>
+                                                    <span class="slider-animate-heading  char">i</span>
+                                                    <span class="slider-animate-heading  char">e</span>
+                                                    <span class="slider-animate-heading  char">r</span>
+                                                    <span class="slider-animate-heading  char">c</span>
+                                                    <span class="slider-animate-heading  char">e</span>
+                                                    <span class="slider-animate-heading  char">r</span>
+
+
+
+
+                                                </span>
+                                            </div>
+                                            <p class="slider-prg"
+                                                style="text-shadow: 2px 2px 0px black, -2px -2px 0px black, 2px -2px 0px black, -2px 2px 0px black;">
+                                                Designed to dominate any battlefield, this weapon is a blend of speed,
+                                                power, and precision. Capable of rapid, successive shots, it can take
+                                                down multiple targets in a flash. The combination of an extended barrel
+                                                and adaptive recoil control ensures each shot lands with pinpoint
+                                                accuracy, making it ideal for overwhelming opponents in high-intensity
+                                                situations.
+
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Slide 4 -->
+                            <div class="relative swiper-slide     s1">
+                                <div class="absolute inset-0 z-0 "></div>
+                                <div
+                                    class="relative z-10 flex flex-col items-center h-auto p-6 text-center   rounded-2xl">
+                                    <div class="flex flex-col w-full md:flex-row md:items-center">
+                                        <div class="flex justify-center w-full mb- md:w-2/5 md:mb-0">
+                                            <img src="./images/rendring/guns/4.png" alt=" Image" class="slider-img" />
+                                        </div>
+                                        <div class="w-full text-left md:w-3/5 md:px-8 lg:px-16">
+                                            <!-- <h4 class="mb-2 font-semibold text-md text-cart-heading font-orbitron">
+                    
+                 </h4> -->
+                                            <!-- Text Section with Animation -->
+                                            <div class=" text-white  leading-tight">
+                                                <span id=""
+                                                    class="animate-heading justify-center flex md:justify-start">
+                                                    <span class="slider-animate-heading  char">V</span>
+                                                    <span class="slider-animate-heading  char">e</span>
+                                                    <span class="slider-animate-heading  char">n</span>
+                                                    <span class="slider-animate-heading  char">o</span>
+                                                    <span class="slider-animate-heading  char">m</span>
+                                                    <span class="slider-animate-heading  char">C</span>
+                                                    <span class="slider-animate-heading  char">l</span>
+                                                    <span class="slider-animate-heading  char">a</span>
+                                                    <span class="slider-animate-heading  char">w</span>
+
+
+
+
+                                                </span>
+                                            </div>
+                                            <p class="slider-prg"
+                                                style="text-shadow: 2px 2px 0px black, -2px -2px 0px black, 2px -2px 0px black, -2px 2px 0px black;">
+                                                This compact powerhouse is designed to inflict lasting damage with every
+                                                shot. Its corrosive bullets leave behind a trail of destruction,
+                                                continuing to erode targets even after impact. With a sleek and angular
+                                                design, it’s not only a weapon of efficiency but also one of
+                                                intimidation, making it a must-have for those who thrive in the chaos of
+                                                combat.
+
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Slide 5-->
+                            <div class="relative swiper-slide     s1">
+                                <div class="absolute inset-0 z-0 "></div>
+                                <div
+                                    class="relative z-10 flex flex-col items-center h-auto p-6 text-center   rounded-2xl">
+                                    <div class="flex flex-col w-full md:flex-row md:items-center">
+                                        <div class="flex justify-center w-full mb- md:w-2/5 md:mb-0">
+                                            <img src="./images/rendring/guns/5.png" alt=" Image" class="slider-img" />
+                                        </div>
+                                        <div class="w-full text-left md:w-3/5 md:px-8 lg:px-16">
+                                            <!-- <h4 class="mb-2 font-semibold text-md text-cart-heading font-orbitron">
+                    
+                 </h4> -->
+                                            <!-- Text Section with Animation -->
+                                            <div class=" text-white  leading-tight">
+                                                <span id=""
+                                                    class="animate-heading justify-center flex md:justify-start">
+                                                    <span class="slider-animate-heading  char">T</span>
+                                                    <span class="slider-animate-heading  char">i</span>
+                                                    <span class="slider-animate-heading  char">t</span>
+                                                    <span class="slider-animate-heading  char">o</span>
+                                                    <span class="slider-animate-heading  char">n</span>
+                                                    <span class="slider-animate-heading  char">S</span>
+                                                    <span class="slider-animate-heading  char">t</span>
+                                                    <span class="slider-animate-heading  char">r</span>
+                                                    <span class="slider-animate-heading  char">i</span>
+                                                    <span class="slider-animate-heading  char">k</span>
+                                                    <span class="slider-animate-heading  char">e</span>
+
+
+
+
+                                                </span>
+                                            </div>
+                                            <p class="slider-prg"
+                                                style="text-shadow: 2px 2px 0px black, -2px -2px 0px black, 2px -2px 0px black, -2px 2px 0px black;">
+                                                A weapon built to deliver devastating force at close range, TitanStrike
+                                                is perfect for overwhelming opponents with a single blast. Its heavy
+                                                construction and powerful ammunition make it a force to be reckoned
+                                                with, shredding anything in its path. The robust design and powerful
+                                                recoil ensure that the user maintains control, even in the most intense
+                                                situations.
+
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Slide 6 -->
+                            <div class="relative swiper-slide     s1">
+                                <div class="absolute inset-0 z-0 "></div>
+                                <div
+                                    class="relative z-10 flex flex-col items-center h-auto p-6 text-center   rounded-2xl">
+                                    <div class="flex flex-col w-full md:flex-row md:items-center">
+                                        <div class="flex justify-center w-full mb- md:w-2/5 md:mb-0">
+                                            <img src="./images/rendring/robots/1.png" alt=" Image" class="slider-img" />
+                                        </div>
+                                        <div class="w-full text-left md:w-3/5 md:px-8 lg:px-16">
+                                            <!-- <h4 class="mb-2 font-semibold text-md text-cart-heading font-orbitron">
+                    
+                 </h4> -->
+                                            <!-- Text Section with Animation -->
+                                            <div class=" text-white  leading-tight">
+                                                <span id=""
+                                                    class="animate-heading justify-center flex md:justify-start">
+                                                    <span class="slider-animate-heading  char">C</span>
+                                                    <span class="slider-animate-heading  char">r</span>
+                                                    <span class="slider-animate-heading  char">y</span>
+                                                    <span class="slider-animate-heading  char">o</span>
+                                                    <span class="slider-animate-heading  char">P</span>
+                                                    <span class="slider-animate-heading  char">h</span>
+                                                    <span class="slider-animate-heading  char">a</span>
+                                                    <span class="slider-animate-heading  char">n</span>
+                                                    <span class="slider-animate-heading  char">t</span>
+                                                    <span class="slider-animate-heading  char">o</span>
+                                                    <span class="slider-animate-heading  char">m</span>
+
+
+
+                                                </span>
+                                            </div>
+                                            <p class="slider-prg"
+                                                style="text-shadow: 2px 2px 0px black, -2px -2px 0px black, 2px -2px 0px black, -2px 2px 0px black;">
+                                                CryoPhantom is a cutting-edge weapon that turns combat into a cold,
+                                                calculated affair. Capable of freezing opponents in place with its icy
+                                                projectiles, it offers both tactical advantage and control over the
+                                                battlefield. Its sleek, futuristic design and cryogenic power make it a
+                                                unique addition to any arsenal, capable of neutralizing threats with
+                                                chilling precision.
+
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Navigation Buttons -->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+
+                        <!-- Pagination -->
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+
+                <!-- Swiper JS -->
+                <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+                <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+                <script>
+                    // Initialize Swiper
+                    const swiper4 = new Swiper('.swiper-container', {
+                        loop: true,
+                        slidesPerView: 1,
+                        spaceBetween: 48,
+                        navigation: {
+                            nextEl: '.swiper-button-next',
+                            prevEl: '.swiper-button-prev',
+                        },
+                        pagination: {
+                            el: '.swiper-pagination',
+                            clickable: true,
+                        },
+                    });
+
+                    // Remove 'hidden' class on initialization
+                    document.getElementById('cars-slider').classList.remove('hidden');
+                </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+
+            <!-- Script wala Section -->
+            <script>
+                // Get references to tabs and sliders
+                const tabs = {
+                    cars: document.getElementById("cars-tab"),
+                    planes: document.getElementById("planes-tab"),
+                    robots: document.getElementById("robots-tab"),
+                    guns: document.getElementById("guns-tab"),
+                };
+
+                const sliders = {
+                    cars: document.getElementById("cars-slider"),
+                    planes: document.getElementById("planes-slider"),
+                    robots: document.getElementById("robots-slider"),
+                    guns: document.getElementById("guns-slider"),
+                };
+
+                // Function to handle tab clicks
+                const handleTabClick = (activeTab) => {
+                    // Hide all sliders
+                    Object.keys(sliders).forEach((slider) => {
+                        sliders[slider].classList.add("hidden"); // Add hidden class
+                    });
+
+                    // Show the selected slider
+                    sliders[activeTab].classList.remove("hidden"); // Remove hidden class
+
+                    // Remove active styles from all tabs
+                    Object.keys(tabs).forEach((tab) => {
+                        tabs[tab].classList.remove(
+                            "bg-orange-500", // Remove all background colors
+                            "text-white",
+                            "active-tab"
+                        );
+                        tabs[tab].classList.add("hover:bg-gray-700", "text-gray-300"); // Reset hover and text color
+                    });
+
+                    // Set active styles for the clicked tab (only orange for all tabs)
+                    tabs[activeTab].classList.add("bg-orange-500", "text-white", "active-tab");
+
+                    // Remove hover effect from active tab
+                    tabs[activeTab].classList.remove("hover:bg-gray-700");
+                };
+
+                // Add event listeners to each tab
+                Object.keys(tabs).forEach((tab) => {
+                    tabs[tab].addEventListener("click", () => handleTabClick(tab));
+                });
+
+                // Set default active tab and slider
+                handleTabClick("cars");
+            </script>
+
+
+
+
+
+
+
+        </div>
+
+    </div>
+
+
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./script/custom.js"></script>
+    <script src="./script/model.js"></script>
+
+
+
+    <footer class="bg-gradient-to-r from-[#032e49] to-[#1a3451] text-white py-6">
+        <div class="container mx-auto flex flex-col md:flex-row justify-between items-center px-4">
+
+            <!-- Left Section: Copyright Text -->
+            <div class="text-sm text-gray-300 mb-4 md:mb-0 w-full md:w-auto text-center md:text-left">
+                <p>&copy; 2025 IgniPulse</p>
+                <p>All Rights Reserved</p>
+            </div>
+
+            <!-- Center Section: Social Icons -->
+            <div class="flex justify-center space-x-4 mb-4 md:mb-0 w-full md:w-auto">
+                <a href="https://www.facebook.com/igniPulse/" target="_blank">
+                    <button title="facebook"
+                        class="relative flex items-center justify-center w-10 h-10 overflow-hidden transition-all duration-300 bg-white rounded-full shadow-md hadow-gray-200 group">
+                        <svg class="relative z-10 transition-all duration-300 fill-gray-900 group-hover:fill-white"
+                            xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 72 72" fill="none">
+                            <path
+                                d="M46.4927 38.6403L47.7973 30.3588H39.7611V24.9759C39.7611 22.7114 40.883 20.4987 44.4706 20.4987H48.1756V13.4465C46.018 13.1028 43.8378 12.9168 41.6527 12.8901C35.0385 12.8901 30.7204 16.8626 30.7204 24.0442V30.3588H23.3887V38.6403H30.7204V58.671H39.7611V38.6403H46.4927Z"
+                                fill="" />
+                        </svg>
+                        <div
+                            class="absolute left-0 z-0 w-full h-full transition-all duration-500 bg-blue-500 rounded-full top-full group-hover:top-0">
+                        </div>
+                    </button>
+                </a>
+
+                <a href="https://www.youtube.com/channel/UCOI2_8463WfbJJKSBd4RI8g" target="_blank">
+                    <button title="Youtube"
+                        class="relative flex items-center justify-center w-10 h-10 overflow-hidden transition-all duration-300 bg-white rounded-full shadow-md dow-gray-200 group">
+                        <svg class="relative z-10 transition-all duration-300 fill-gray-900 group-hover:fill-white"
+                            xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 72 72" fill="none">
+                            <path
+                                d="M61.1026 23.7185C60.5048 21.471 58.7363 19.6981 56.4863 19.0904C52.4181 18 36.0951 18 36.0951 18C36.0951 18 19.7805 18 15.7039 19.0904C13.4622 19.6897 11.6937 21.4627 11.0876 23.7185C10 27.7971 10 36.3124 10 36.3124C10 36.3124 10 44.8276 11.0876 48.9063C11.6854 51.1537 13.4539 52.9267 15.7039 53.5343C19.7805 54.6247 36.0951 54.6247 36.0951 54.6247C36.0951 54.6247 52.4181 54.6247 56.4863 53.5343C58.728 52.935 60.4965 51.162 61.1026 48.9063C62.1902 44.8276 62.1902 36.3124 62.1902 36.3124C62.1902 36.3124 62.1902 27.7971 61.1026 23.7185Z"
+                                fill="" />
+                            <path class="fill-white transition-all duration-300 group-hover:fill-[#FF3000]"
+                                d="M30.8811 44.1617L44.4392 36.3124L30.8811 28.463V44.1617Z" fill="white" />
+                        </svg>
+                        <div
+                            class="absolute top-full left-0 w-full h-full rounded-full bg-[#FF3000] z-0 transition-all duration-500 group-hover:top-0">
+                        </div>
+                    </button></a>
+
+                <a href="" target="_blank">
+                    <button title="Instagram"
+                        class="relative flex items-center justify-center w-10 h-10 overflow-hidden transition-all duration-500 bg-white rounded-full shadow-md hadow-gray-200 group">
+                        <svg class="relative z-10 transition-all duration-500 fill-gray-900 group-hover:fill-white"
+                            xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 51 51" fill="none">
+                            <path
+                                d="M17.4456 25.7808C17.4456 21.1786 21.1776 17.4468 25.7826 17.4468C30.3875 17.4468 34.1216 21.1786 34.1216 25.7808C34.1216 30.383 30.3875 34.1148 25.7826 34.1148C21.1776 34.1148 17.4456 30.383 17.4456 25.7808ZM12.9377 25.7808C12.9377 32.8708 18.6883 38.618 25.7826 38.618C32.8768 38.618 38.6275 32.8708 38.6275 25.7808C38.6275 18.6908 32.8768 12.9436 25.7826 12.9436C18.6883 12.9436 12.9377 18.6908 12.9377 25.7808ZM36.1342 12.4346C36.1339 13.0279 36.3098 13.608 36.6394 14.1015C36.9691 14.595 37.4377 14.9797 37.9861 15.2069C38.5346 15.4342 39.1381 15.4939 39.7204 15.3784C40.3028 15.2628 40.8378 14.9773 41.2577 14.5579C41.6777 14.1385 41.9638 13.6041 42.0799 13.0222C42.1959 12.4403 42.1367 11.8371 41.9097 11.2888C41.6828 10.7406 41.2982 10.2719 40.8047 9.94202C40.3112 9.61218 39.7309 9.436 39.1372 9.43576H39.136C38.3402 9.43613 37.5771 9.75216 37.0142 10.3144C36.4514 10.8767 36.1349 11.6392 36.1342 12.4346ZM15.6765 46.1302C13.2377 46.0192 11.9121 45.6132 11.0311 45.2702C9.86323 44.8158 9.02993 44.2746 8.15381 43.4002C7.27768 42.5258 6.73536 41.6938 6.28269 40.5266C5.93928 39.6466 5.53304 38.3214 5.42217 35.884C5.3009 33.2488 5.27668 32.4572 5.27668 25.781C5.27668 19.1048 5.3029 18.3154 5.42217 15.678C5.53324 13.2406 5.94248 11.918 6.28269 11.0354C6.73736 9.86816 7.27888 9.03536 8.15381 8.15976C9.02873 7.28416 9.86123 6.74216 11.0311 6.28976C11.9117 5.94656 13.2377 5.54056 15.6765 5.42976C18.3133 5.30856 19.1054 5.28436 25.7826 5.28436C32.4598 5.28436 33.2527 5.31056 35.8916 5.42976C38.3305 5.54076 39.6539 5.94976 40.537 6.28976C41.7049 6.74216 42.5382 7.28536 43.4144 8.15976C44.2905 9.03416 44.8308 9.86816 45.2855 11.0354C45.6289 11.9154 46.0351 13.2406 46.146 15.678C46.2673 18.3154 46.2915 19.1048 46.2915 25.781C46.2915 32.4572 46.2673 33.2466 46.146 35.884C46.0349 38.3214 45.6267 39.6462 45.2855 40.5266C44.8308 41.6938 44.2893 42.5266 43.4144 43.4002C42.5394 44.2738 41.7049 44.8158 40.537 45.2702C39.6565 45.6134 38.3305 46.0194 35.8916 46.1302C33.2549 46.2514 32.4628 46.2756 25.7826 46.2756C19.1024 46.2756 18.3125 46.2514 15.6765 46.1302ZM15.4694 0.932162C12.8064 1.05336 10.9867 1.47536 9.39755 2.09336C7.75177 2.73156 6.35853 3.58776 4.9663 4.97696C3.57406 6.36616 2.71955 7.76076 2.08097 9.40556C1.46259 10.9948 1.04034 12.8124 0.919069 15.4738C0.795795 18.1394 0.767578 18.9916 0.767578 25.7808C0.767578 32.57 0.795795 33.4222 0.919069 36.0878C1.04034 38.7494 1.46259 40.5668 2.08097 42.156C2.71955 43.7998 3.57426 45.196 4.9663 46.5846C6.35833 47.9732 7.75177 48.8282 9.39755 49.4682C10.9897 50.0862 12.8064 50.5082 15.4694 50.6294C18.138 50.7506 18.9893 50.7808 25.7826 50.7808C32.5759 50.7808 33.4286 50.7526 36.0958 50.6294C38.759 50.5082 40.5774 50.0862 42.1676 49.4682C43.8124 48.8282 45.2066 47.9738 46.5989 46.5846C47.9911 45.1954 48.8438 43.7998 49.4842 42.156C50.1026 40.5668 50.5268 38.7492 50.6461 36.0878C50.7674 33.4202 50.7956 32.57 50.7956 25.7808C50.7956 18.9916 50.7674 18.1394 50.6461 15.4738C50.5248 12.8122 50.1026 10.9938 49.4842 9.40556C48.8438 7.76176 47.9889 6.36836 46.5989 4.97696C45.2088 3.58556 43.8124 2.73156 42.1696 2.09336C40.5775 1.47536 38.7588 1.05136 36.0978 0.932162C33.4306 0.810962 32.5779 0.780762 25.7846 0.780762C18.9913 0.780762 18.138 0.808962 15.4694 0.932162Z"
+                                fill="" />
+                            <path
+                                d="M17.4456 25.7808C17.4456 21.1786 21.1776 17.4468 25.7826 17.4468C30.3875 17.4468 34.1216 21.1786 34.1216 25.7808C34.1216 30.383 30.3875 34.1148 25.7826 34.1148C21.1776 34.1148 17.4456 30.383 17.4456 25.7808ZM12.9377 25.7808C12.9377 32.8708 18.6883 38.618 25.7826 38.618C32.8768 38.618 38.6275 32.8708 38.6275 25.7808C38.6275 18.6908 32.8768 12.9436 25.7826 12.9436C18.6883 12.9436 12.9377 18.6908 12.9377 25.7808ZM36.1342 12.4346C36.1339 13.0279 36.3098 13.608 36.6394 14.1015C36.9691 14.595 37.4377 14.9797 37.9861 15.2069C38.5346 15.4342 39.1381 15.4939 39.7204 15.3784C40.3028 15.2628 40.8378 14.9773 41.2577 14.5579C41.6777 14.1385 41.9638 13.6041 42.0799 13.0222C42.1959 12.4403 42.1367 11.8371 41.9097 11.2888C41.6828 10.7406 41.2982 10.2719 40.8047 9.94202C40.3112 9.61218 39.7309 9.436 39.1372 9.43576H39.136C38.3402 9.43613 37.5771 9.75216 37.0142 10.3144C36.4514 10.8767 36.1349 11.6392 36.1342 12.4346ZM15.6765 46.1302C13.2377 46.0192 11.9121 45.6132 11.0311 45.2702C9.86323 44.8158 9.02993 44.2746 8.15381 43.4002C7.27768 42.5258 6.73536 41.6938 6.28269 40.5266C5.93928 39.6466 5.53304 38.3214 5.42217 35.884C5.3009 33.2488 5.27668 32.4572 5.27668 25.781C5.27668 19.1048 5.3029 18.3154 5.42217 15.678C5.53324 13.2406 5.94248 11.918 6.28269 11.0354C6.73736 9.86816 7.27888 9.03536 8.15381 8.15976C9.02873 7.28416 9.86123 6.74216 11.0311 6.28976C11.9117 5.94656 13.2377 5.54056 15.6765 5.42976C18.3133 5.30856 19.1054 5.28436 25.7826 5.28436C32.4598 5.28436 33.2527 5.31056 35.8916 5.42976C38.3305 5.54076 39.6539 5.94976 40.537 6.28976C41.7049 6.74216 42.5382 7.28536 43.4144 8.15976C44.2905 9.03416 44.8308 9.86816 45.2855 11.0354C45.6289 11.9154 46.0351 13.2406 46.146 15.678C46.2673 18.3154 46.2915 19.1048 46.2915 25.781C46.2915 32.4572 46.2673 33.2466 46.146 35.884C46.0349 38.3214 45.6267 39.6462 45.2855 40.5266C44.8308 41.6938 44.2893 42.5266 43.4144 43.4002C42.5394 44.2738 41.7049 44.8158 40.537 45.2702C39.6565 45.6134 38.3305 46.0194 35.8916 46.1302C33.2549 46.2514 32.4628 46.2756 25.7826 46.2756C19.1024 46.2756 18.3125 46.2514 15.6765 46.1302ZM15.4694 0.932162C12.8064 1.05336 10.9867 1.47536 9.39755 2.09336C7.75177 2.73156 6.35853 3.58776 4.9663 4.97696C3.57406 6.36616 2.71955 7.76076 2.08097 9.40556C1.46259 10.9948 1.04034 12.8124 0.919069 15.4738C0.795795 18.1394 0.767578 18.9916 0.767578 25.7808C0.767578 32.57 0.795795 33.4222 0.919069 36.0878C1.04034 38.7494 1.46259 40.5668 2.08097 42.156C2.71955 43.7998 3.57426 45.196 4.9663 46.5846C6.35833 47.9732 7.75177 48.8282 9.39755 49.4682C10.9897 50.0862 12.8064 50.5082 15.4694 50.6294C18.138 50.7506 18.9893 50.7808 25.7826 50.7808C32.5759 50.7808 33.4286 50.7526 36.0958 50.6294C38.759 50.5082 40.5774 50.0862 42.1676 49.4682C43.8124 48.8282 45.2066 47.9738 46.5989 46.5846C47.9911 45.1954 48.8438 43.7998 49.4842 42.156C50.1026 40.5668 50.5268 38.7492 50.6461 36.0878C50.7674 33.4202 50.7956 32.57 50.7956 25.7808C50.7956 18.9916 50.7674 18.1394 50.6461 15.4738C50.5248 12.8122 50.1026 10.9938 49.4842 9.40556C48.8438 7.76176 47.9889 6.36836 46.5989 4.97696C45.2088 3.58556 43.8124 2.73156 42.1696 2.09336C40.5775 1.47536 38.7588 1.05136 36.0978 0.932162C33.4306 0.810962 32.5779 0.780762 25.7846 0.780762C18.9913 0.780762 18.138 0.808962 15.4694 0.932162Z"
+                                fill="" />
+                            <defs>
+                                <radialgradient id="paint0_radial_7092_54404" cx="0" cy="0" r="1"
+                                    gradientUnits="userSpaceOnUse"
+                                    gradientTransform="translate(7.41436 51.017) scale(65.31 65.2708)">
+                                    <stop offset="0.09" stop-color="#FA8F21" />
+                                    <stop offset="0.78" stop-color="#D82D7E" />
+                                </radialgradient>
+                                <radialgradient id="paint1_radial_7092_54404" cx="0" cy="0" r="1"
+                                    gradientUnits="userSpaceOnUse"
+                                    gradientTransform="translate(31.1086 53.257) scale(51.4733 51.4424)">
+                                    <stop offset="0.64" stop-color="#8C3AAA" stop-opacity="0" />
+                                    <stop offset="1" stop-color="#8C3AAA" />
+                                </radialgradient>
+                            </defs>
+                        </svg>
+                        <div
+                            class="absolute left-0 z-0 w-full h-full transition-all duration-500 rounded-full top-full bg-gradient-to-bl from-purple-500 via-pink-500 to-yellow-500 group-hover:top-0">
+                        </div>
+                    </button>
+                </a>
+
+                <a href="" target="_blank">
+                    <button title="Twitter"
+                        class="relative flex items-center justify-center w-10 h-10 overflow-hidden transition-all duration-300 bg-white rounded-full shadow-md hadow-gray-200 group">
+                        <svg class="z-10 transition-all duration-300 fill-black group-hover:fill-white"
+                            xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 72 72" fill="none">
+                            <path
+                                d="M40.7568 32.1716L59.3704 11H54.9596L38.7974 29.383L25.8887 11H11L30.5205 38.7983L11 61H15.4111L32.4788 41.5869L46.1113 61H61L40.7557 32.1716H40.7568ZM34.7152 39.0433L32.7374 36.2752L17.0005 14.2492H23.7756L36.4755 32.0249L38.4533 34.7929L54.9617 57.8986H48.1865L34.7152 39.0443V39.0433Z"
+                                fill="" />
+                        </svg>
+                        <div
+                            class="absolute left-0 z-0 w-full h-full transition-all duration-500 bg-black rounded-full top-full group-hover:top-0">
+                        </div>
+                    </button></a>
+
+
+            </div>
+
+            <!-- Right Section: Links -->
+            <div class="text-sm text-gray-300 w-full md:w-auto text-center md:text-right">
+                <div>
+                    <a href="#" class="hover:text-white transition">Privacy Policy</a> |
+                    <a href="#" class="hover:text-white transition">Terms and Conditions</a>
+                </div>
+                <div>
+                    <a href="#" class="hover:text-white transition">Quality Management Policy</a> |
+                    <a href="#" class="hover:text-white transition">ISMS</a>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    // Select the button
+    const scrollButton = document.getElementById('scroll-button');
+
+    // Add event listener to button
+    scrollButton.addEventListener('click', function (e) {
+        e.preventDefault(); // Prevent default action (jumping to the section)
+
+        // Select the target section
+        const targetSection = document.getElementById('game-section');
+
+        // Smooth scroll to the target section with custom duration
+        window.scrollTo({
+            top: targetSection.offsetTop, // Scroll to the top of the section
+            behavior: 'smooth' // Smooth scroll effect
+        });
+    });
+</script>
+
+
+
+
+
+<!-- animated text card 1  -->
+
+<script>
+    // Select all cards (or headings) to animate individually
+    const cardHeadings = document.querySelectorAll('.game-card-bg .text-center');
+
+    // Function to animate characters in each heading separately
+    function animateHeading(heading) {
+        const chars = heading.querySelectorAll('.char');
+        let index = 0;
+        let isHovering = false;
+        let animationInterval;
+
+        // Function to animate characters individually
+        function animateChars() {
+            if (!isHovering) {
+                // Reset all chars to normal state
+                chars.forEach((char) => {
+                    char.classList.remove('animate-char-animate');
+                    char.style.color = ''; // Default color
+                    char.style.fontFamily = 'Orbitron'; // Default Orbitron font
+                    char.style.textShadow = ''; // Remove any text-shadow
+                    char.style.backgroundImage = ''; // Reset gradient
+                });
+
+                // Add animation to the current character
+                const currentChar = chars[index];
+                currentChar.classList.add('animate-char-animate');
+                index = (index + 1) % chars.length; // Increment index and wrap around
+            }
+        }
+
+        // Start the animation loop
+        function startAnimation() {
+            if (!animationInterval) {
+                animationInterval = setInterval(animateChars, 1500); // Run animation every 1.5 seconds
+            }
+        }
+
+        // Stop the animation loop
+        function stopAnimation() {
+            clearInterval(animationInterval);
+            animationInterval = null;
+        }
+
+        // Hover effect: All characters animate at once
+        heading.addEventListener('mouseenter', () => {
+            isHovering = true; // Hover state is active
+            stopAnimation(); // Stop individual animation
+            chars.forEach((char) => {
+                char.style.fontFamily = '"Permanent Marker", cursive'; // Change to marker font
+                char.classList.add('animate-char-animate'); // Apply animation to all
+                char.style.color = 'transparent'; // Transparent color for the red gradient
+                char.style.backgroundImage = 'linear-gradient(to right, #FF6347, #FF4C4C)'; // Red gradient for hover
+                char.style.textShadow = '2px 2px 4px rgba(255, 0, 0, 0.6)'; // Outer red shadow
+            });
+        });
+
+        // Revert to individual animation when hover ends
+        heading.addEventListener('mouseleave', () => {
+            isHovering = false; // Hover state is no longer active
+            chars.forEach((char) => {
+                char.style.fontFamily = 'Orbitron'; // Revert to Orbitron font
+                char.style.color = ''; // Reset to default color
+                char.style.backgroundImage = ''; // Remove gradient
+                char.style.textShadow = ''; // Remove the shadow
+                char.classList.remove('animate-char-animate'); // Remove hover animation
+            });
+
+            // Restart individual animation after a short delay
+            setTimeout(() => {
+                startAnimation();
+            }, 500); // Slight delay for smooth transition
+        });
+
+        // Start the animation initially
+        startAnimation();
+    }
+
+    // Apply animation to each heading independently
+    cardHeadings.forEach((heading) => {
+        animateHeading(heading);
+    });
+
+</script>
+
+<!-- animated text card 2  -->
+<script>
+    // Select the specific card 2 heading to animate individually
+    const cardHeading2 = document.querySelectorAll('#animated-text-card2 .char'); // Select only the characters inside card 2's text
+
+    // Function to animate characters in this specific heading
+    function animateHeadingCard2() {
+        let index = 0;
+        let isHovering = false;
+        let animationInterval;
+
+        // Function to animate characters individually
+        function animateChars() {
+            if (!isHovering) {
+                // Reset all chars to normal state
+                cardHeading2.forEach((char) => {
+                    char.classList.remove('animate-char-animate');
+                    char.style.color = ''; // Default color
+                    char.style.fontFamily = 'Orbitron'; // Default Orbitron font
+                    char.style.textShadow = ''; // Remove any text-shadow
+                    char.style.backgroundImage = ''; // Reset gradient
+                });
+
+                // Add animation to the current character
+                const currentChar = cardHeading2[index];
+                currentChar.classList.add('animate-char-animate');
+                index = (index + 1) % cardHeading2.length; // Increment index and wrap around
+            }
+        }
+
+        // Start the animation loop
+        function startAnimation() {
+            if (!animationInterval) {
+                animationInterval = setInterval(animateChars, 1500); // Run animation every 1.5 seconds
+            }
+        }
+
+        // Stop the animation loop
+        function stopAnimation() {
+            clearInterval(animationInterval);
+            animationInterval = null;
+        }
+
+        // Hover effect: All characters animate at once
+        document.querySelector('#animated-text-card2').addEventListener('mouseenter', () => {
+            isHovering = true; // Hover state is active
+            stopAnimation(); // Stop individual animation
+            cardHeading2.forEach((char) => {
+                char.style.fontFamily = '"Permanent Marker", cursive'; // Change to marker font
+                char.classList.add('animate-char-animate'); // Apply animation to all
+                char.style.color = 'transparent'; // Transparent color for the red gradient
+                char.style.backgroundImage = 'linear-gradient(to right, #FF6347, #FF4C4C)'; // Red gradient for hover
+                char.style.textShadow = '2px 2px 4px rgba(255, 0, 0, 0.6)'; // Outer red shadow
+            });
+        });
+
+        // Revert to individual animation when hover ends
+        document.querySelector('#animated-text-card2').addEventListener('mouseleave', () => {
+            isHovering = false; // Hover state is no longer active
+            cardHeading2.forEach((char) => {
+                char.style.fontFamily = 'Orbitron'; // Revert to Orbitron font
+                char.style.color = ''; // Reset to default color
+                char.style.backgroundImage = ''; // Remove gradient
+                char.style.textShadow = ''; // Remove the shadow
+                char.classList.remove('animate-char-animate'); // Remove hover animation
+            });
+
+            // Restart individual animation after a short delay
+            setTimeout(() => {
+                startAnimation();
+            }, 500); // Slight delay for smooth transition
+        });
+
+        // Start the animation initially
+        startAnimation();
+    }
+
+    // Apply animation to this specific heading (card 2)
+    animateHeadingCard2();
+
+</script>
+
+<!-- animated text card 3  -->
+<script>
+    // Select the specific card 3 heading to animate individually
+    const cardHeading3 = document.querySelectorAll('#animated-text-card3 .char'); // Select only the characters inside card 3's text
+
+    // Function to animate characters in this specific heading
+    function animateHeadingCard3() {
+        let index = 0;
+        let isHovering = false;
+        let animationInterval;
+
+        // Function to animate characters individually
+        function animateChars() {
+            if (!isHovering) {
+                // Reset all chars to normal state
+                cardHeading3.forEach((char) => {
+                    char.classList.remove('animate-char-animate');
+                    char.style.color = ''; // Default color
+                    char.style.fontFamily = 'Orbitron'; // Default Orbitron font
+                    char.style.textShadow = ''; // Remove any text-shadow
+                    char.style.backgroundImage = ''; // Reset gradient
+                });
+
+                // Add animation to the current character
+                const currentChar = cardHeading3[index];
+                currentChar.classList.add('animate-char-animate');
+                index = (index + 1) % cardHeading3.length; // Increment index and wrap around
+            }
+        }
+
+        // Start the animation loop
+        function startAnimation() {
+            if (!animationInterval) {
+                animationInterval = setInterval(animateChars, 1500); // Run animation every 1.5 seconds
+            }
+        }
+
+        // Stop the animation loop
+        function stopAnimation() {
+            clearInterval(animationInterval);
+            animationInterval = null;
+        }
+
+        // Hover effect: All characters animate at once
+        document.querySelector('#animated-text-card3').addEventListener('mouseenter', () => {
+            isHovering = true; // Hover state is active
+            stopAnimation(); // Stop individual animation
+            cardHeading3.forEach((char) => {
+                char.style.fontFamily = '"Permanent Marker", cursive'; // Change to marker font
+                char.classList.add('animate-char-animate'); // Apply animation to all
+                char.style.color = 'transparent'; // Transparent color for the red gradient
+                char.style.backgroundImage = 'linear-gradient(to right, #FF6347, #FF4C4C)'; // Red gradient for hover
+                char.style.textShadow = '2px 2px 4px rgba(255, 0, 0, 0.6)'; // Outer red shadow
+            });
+        });
+
+        // Revert to individual animation when hover ends
+        document.querySelector('#animated-text-card3').addEventListener('mouseleave', () => {
+            isHovering = false; // Hover state is no longer active
+            cardHeading3.forEach((char) => {
+                char.style.fontFamily = 'Orbitron'; // Revert to Orbitron font
+                char.style.color = ''; // Reset to default color
+                char.style.backgroundImage = ''; // Remove gradient
+                char.style.textShadow = ''; // Remove the shadow
+                char.classList.remove('animate-char-animate'); // Remove hover animation
+            });
+
+            // Restart individual animation after a delay
+            setTimeout(() => {
+                startAnimation();
+            }, 500); // Slight delay for a smooth transition
+        });
+
+        // Start the animation initially
+        startAnimation();
+    }
+
+    // Apply animation to this specific heading (card 3)
+    animateHeadingCard3();
+
+</script>
+
+<!-- animated text card 4  -->
+<script>
+    // Select the specific card 4 heading to animate individually
+    const cardHeading4Unique = document.querySelectorAll('#animated-text-card4-unique .char'); // Select only the characters inside card 4's text
+
+    // Function to animate characters in this specific heading
+    function animateHeadingCard4Unique() {
+        let index = 0;
+        let isHovering = false;
+
+        // Function to animate characters individually
+        function animateChars() {
+            if (!isHovering) {  // Only animate if not hovering
+                // Reset all chars to normal state
+                cardHeading4Unique.forEach((char) => {
+                    char.classList.remove('animate-char-animate');
+                    char.style.color = ''; // Default color from the gradient-text-orange class
+                    char.style.fontFamily = 'Orbitron'; // Default Orbitron font
+                    char.style.textShadow = ''; // Remove any text-shadow (default state)
+                    char.style.backgroundImage = ''; // Reset gradient
+                });
+
+                // Add animation to the next character
+                const currentChar = cardHeading4Unique[index];
+                currentChar.classList.add('animate-char-animate');
+                index = (index + 1) % cardHeading4Unique.length; // Increment index and wrap around
+            }
+
+            // Keep running the animation
+            setTimeout(animateChars, 1500); // Adjusted to run faster
+        }
+
+        // Hover effect: All characters animate at once
+        document.querySelector('#animated-text-card4-unique').addEventListener('mouseenter', () => {
+            isHovering = true; // Hover state is active
+            cardHeading4Unique.forEach((char) => {
+                char.style.fontFamily = '"Permanent Marker", cursive'; // Change to marker font
+                char.classList.add('animate-char-animate'); // Apply animation to all
+                char.style.color = 'transparent'; // Transparent color for the red gradient
+                char.style.backgroundImage = 'linear-gradient(to right, #FF6347, #FF4C4C)'; // Red gradient for hover
+                char.style.textShadow = '2px 2px 4px rgba(255, 0, 0, 0.6)'; // Outer red shadow
+            });
+        });
+
+        // Revert to individual animation when hover ends
+        document.querySelector('#animated-text-card4-unique').addEventListener('mouseleave', () => {
+            isHovering = false; // Hover state is no longer active
+            cardHeading4Unique.forEach((char) => {
+                char.style.fontFamily = 'Orbitron'; // Revert to Orbitron font
+                char.style.color = ''; // Reset to default color from gradient-text-orange
+                char.style.backgroundImage = ''; // Remove gradient on hover off
+                char.style.textShadow = ''; // Remove the shadow
+            });
+
+            // Start the individual animation again after the hover ends
+            setTimeout(() => {
+                animateChars(); // Restart individual animation
+            }, 500); // Delay to allow hover reset
+        });
+
+        // Start the animation loop
+        animateChars();
+    }
+
+    // Apply animation to this specific heading (card 4)
+    animateHeadingCard4Unique();
+</script>
+
+<!-- for all animationd    -->
+<script>
+    // Select all headings that should have the animation
+    const allCardHeadings = document.querySelectorAll('.animate-heading');
+
+    // Function to animate all characters in all headings simultaneously
+    function animateHeadings() {
+        let index = 0;
+        let isHovering = false;
+        let animationInterval;
+
+        // Function to animate characters individually in all headings
+        function animateChars() {
+            if (!isHovering) {
+                // Reset all chars to normal state for every heading
+                allCardHeadings.forEach((heading) => {
+                    const chars = heading.querySelectorAll('.char');
+                    chars.forEach((char) => {
+                        char.classList.remove('animate-char-animate');
+                        char.style.color = ''; // Default color
+                        char.style.fontFamily = 'Orbitron'; // Default font
+                        char.style.textShadow = ''; // Remove any text-shadow
+                        char.style.backgroundImage = ''; // Reset gradient
+                    });
+                });
+
+                // Add animation to the current character for all headings
+                allCardHeadings.forEach((heading) => {
+                    const chars = heading.querySelectorAll('.char');
+                    const currentChar = chars[index];
+                    currentChar.classList.add('animate-char-animate');
+                });
+                index = (index + 1) % allCardHeadings[0].querySelectorAll('.char').length; // Increment index and wrap around
+            }
+        }
+
+        // Start the animation loop
+        function startAnimation() {
+            if (!animationInterval) {
+                animationInterval = setInterval(animateChars, 1500); // Run animation every 1.5 seconds for all headings
+            }
+        }
+
+        // Stop the animation loop
+        function stopAnimation() {
+            clearInterval(animationInterval);
+            animationInterval = null;
+        }
+
+        // Hover effect: All characters animate at once for all headings
+        allCardHeadings.forEach((heading) => {
+            heading.addEventListener('mouseenter', () => {
+                isHovering = true; // Hover state is active
+                stopAnimation(); // Stop individual animation
+                heading.querySelectorAll('.char').forEach((char) => {
+                    char.style.fontFamily = '"Permanent Marker", cursive'; // Change to marker font
+                    char.classList.add('animate-char-animate'); // Apply animation to all chars
+                    char.style.color = 'transparent'; // Transparent color for the red gradient
+                    char.style.backgroundImage = 'linear-gradient(to right, #FF6347, #FF4C4C)'; // Red gradient for hover
+                    char.style.textShadow = '2px 2px 4px rgba(255, 0, 0, 0.6)'; // Outer red shadow
+                });
+            });
+
+            // Revert to individual animation when hover ends for all headings
+            heading.addEventListener('mouseleave', () => {
+                isHovering = false; // Hover state is no longer active
+                heading.querySelectorAll('.char').forEach((char) => {
+                    char.style.fontFamily = 'Orbitron'; // Revert to Orbitron font
+                    char.style.color = ''; // Reset to default color
+                    char.style.backgroundImage = ''; // Remove gradient
+                    char.style.textShadow = ''; // Remove the shadow
+                });
+
+                // Restart the individual animation after a short delay
+                setTimeout(() => {
+                    startAnimation();
+                }, 500); // Slight delay for smooth transition
+            });
+        });
+
+        // Start the animation initially
+        startAnimation();
+    }
+
+    // Apply animation to all headings simultaneously
+    animateHeadings();
+
+</script>
+
+
+<script>
+    VANTA.BIRDS({
+        el: '#vanta-bg',
+        backgroundColor: 0x1a1a2e, // Dark Blue Background
+        color1: 0x4e4e50, // Gray shade for objects
+        color2: 0x0f3460, // Darker blue shade for movement
+        birdSize: 1.5, // Size of the birds
+        wingSpan: 20.0, // Length of wings
+        separation: 30.0, // Distance between birds
+        alignment: 30.0, // Movement alignment
+        cohesion: 20.0, // Group cohesion for smooth movements
+        quantity: 3.0, // Quantity of birds
+        speedLimit: 2.0, // Speed of birds
+    });
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- vanta  -->
+<!-- Vanta.js Initialization -->
+<script>
+    VANTA.WAVES({
+        el: "#game-section", // Attach to the element with ID game-section
+        mouseControls: true, // Enable mouse interaction
+        touchControls: true, // Enable touch interaction
+        gyroControls: false, // Disable gyro controls for mobile
+        minHeight: 200.00, // Minimum height for the effect
+        minWidth: 200.00, // Minimum width for the effect
+        scale: 1.00, // Scale for desktop
+        scaleMobile: 1.00, // Scale for mobile
+        color: 0x012842, // Dark blue color
+        shininess: 54.00, // Shininess effect
+        waveHeight: 6.00, // Height of waves
+        waveSpeed: 0.20, // Speed of wave animation
+        zoom: 0.65 // Zoom level for the waves
+    });
+</script>
+
+
+
+
+
+
+
+
+
+</html>
