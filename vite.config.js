@@ -1,11 +1,11 @@
 import { defineConfig } from 'vite'
 
 export default defineConfig({
-  root: './',  // Root directory ko set kar rahe hain
+  root: './', 
   build: {
-    outDir: 'dist',  // Output directory jahan build files generate honge
+    outDir: 'dist',  
     rollupOptions: {
-      input: './src/index.html'  // Agar index.html src folder mein hai
+      input: './src/index7.html' 
     }
   },
 })
