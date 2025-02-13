@@ -1,5 +1,5 @@
 services:
-  igniPulse:
+  ignipulse:
     container_name: ignipulse
     build: 
       context: .
