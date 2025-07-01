@@ -14,7 +14,7 @@
 @tailwind utilities;
 
 .head-text {
-  @apply  xl:text-[55px] lg:text-[40px] md:text-[35px] text-[30px] font-bold font-orbitron  gradient-text-orange leading-tight;
+  @apply xl:text-[55px] lg:text-[40px] md:text-[35px] text-[30px] font-bold font-orbitron  gradient-text-orange leading-tight;
 }
 .prgh-text {
   @apply text-[18px] md:text-[22px] xl:text-[25px] 2xl:text-[29px]  text-center md:text-left;
@@ -54,6 +54,4 @@
 .headingfonts {
   @apply bg-black/40 rounded-tl-[36px] rounded-br-[36px] shadow-lg shadow-black border-4 border-gray-800 py-5 backdrop-blur-lg flex-wrap inline-block p-5 font-playfairDisplay;
 }
-
-
 

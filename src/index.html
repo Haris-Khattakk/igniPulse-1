@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>IgniPulse</title>
     <link rel="stylesheet" href="output.css" />
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script> -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
@@ -75,7 +76,7 @@
         id="game-section"
       >
         <!-- Game section  -->
-        <div class="game-main-div">
+        <div class="relative game-main-div">
           <div class="flex md:flex-row flex-col justify-center items-center">
             <div class="flex justify-center">
               <img
@@ -99,7 +100,7 @@
                         class="2xl:w-[600px] rounded-xl transition-all duration-500 ease-in-out transform hover:scale-105 hover:shadow-lg w-full object-cover h-28 md:h-40 lg:h-52 xl:h-64 2xl:h-72 min-h-[150px] max-h-[px] max-w-[400px] lg:max-w-[450px] xl:max-w-[550px] 2xl:max-w-[700px] shadow-lg shadow-black"
                       />
                     </div>
-                    <div class=" ">
+                    <div class="flex flex-col items-center">
                       <div
                         class="text-center text-white font-orbitron leading-tight font-bold"
                       >
@@ -151,6 +152,13 @@
                           face fierce battles
                         </p>
                       </div>
+                      <a
+                        href="https://wingrush.ignipulse.com/"
+                        target="_blank"
+                        class="bg-black mt-4 text-orange-300 font-orbitron rounded-xl hover:text-orange-500 transition duration-300 ease-in-out relative px-7 py-3 text-lg overflow-hidden group border-orange-500 border-[1px]"
+                      >
+                        Explore
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -160,16 +168,17 @@
                 <div class="shadow-2xl shadow-black">
                   <div class="game-card-bg">
                     <div class="game-img-adj">
-                      <img
-                        src="assets/cards/f1.png"
-                        alt=""
-                        class="2xl:w-[600px] rounded-xl transition-all duration-500 ease-in-out transform hover:scale-105 hover:shadow-lg w-full object-cover h-28 md:h-40 lg:h-52 xl:h-64 2xl:h-72 min-h-[150px] max-h-[px] max-w-[400px] lg:max-w-[450px] xl:max-w-[550px] 2xl:max-w-[700px] shadow-lg shadow-black"
-                      />
+                      <a href=""
+                        ><img
+                          src="assets/cards/f1.png"
+                          alt=""
+                          class="2xl:w-[600px] rounded-xl transition-all duration-500 ease-in-out transform hover:scale-105 hover:shadow-lg w-full object-cover h-28 md:h-40 lg:h-52 xl:h-64 2xl:h-72 min-h-[150px] max-h-[px] max-w-[400px] lg:max-w-[450px] xl:max-w-[550px] 2xl:max-w-[700px] shadow-lg shadow-black"
+                      /></a>
                     </div>
-                    <div class=" ">
+                    <div class="flex flex-col items-center">
                       <!-- Text Section with Animation -->
                       <div
-                        class="text-center text-white font-orbitron leading-tight"
+                        class="text-center justify-center text-white font-orbitron leading-tight"
                       >
                         <span id="" class="animated-heading">
                           <span
@@ -229,6 +238,7 @@
                             >n</span
                           >
                         </span>
+                        <!-- <p class="text-3xl pl-2">(Comming Soon)</p> -->
                       </div>
                       <div
                         class="card-prg-text"
@@ -243,6 +253,12 @@
                           champion.
                         </p>
                       </div>
+                      <p
+                        style="font-size: 1.8rem"
+                        class="mt-4 font-audiowide text-orange-300 rounded-xl transition duration-300 ease-in-out relative px-7 py-3 overflow-hidden group"
+                      >
+                        Comming Soon
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -253,13 +269,14 @@
                 <div class="shadow-2xl shadow-black">
                   <div class="game-card-bg">
                     <div class="game-img-adj">
-                      <img
-                        src="assets/cards/HOSTING BACK GROUND.png"
-                        alt=""
-                        class="2xl:w-[600px] rounded-xl transition-all duration-500 ease-in-out transform hover:scale-105 hover:shadow-lg w-full object-cover h-28 md:h-40 lg:h-52 xl:h-64 2xl:h-72 min-h-[150px] max-h-[px] max-w-[400px] lg:max-w-[450px] xl:max-w-[550px] 2xl:max-w-[700px] shadow-lg shadow-black"
-                      />
+                      <a href="/"
+                        ><img
+                          src="assets/cards/HOSTING BACK GROUND.png"
+                          alt=""
+                          class="2xl:w-[600px] rounded-xl transition-all duration-500 ease-in-out transform hover:scale-105 hover:shadow-lg w-full object-cover h-28 md:h-40 lg:h-52 xl:h-64 2xl:h-72 min-h-[150px] max-h-[px] max-w-[400px] lg:max-w-[450px] xl:max-w-[550px] 2xl:max-w-[700px] shadow-lg shadow-black"
+                      /></a>
                     </div>
-                    <div class=" ">
+                    <div class="flex flex-col items-center">
                       <!-- Text Section with Animation -->
                       <div
                         class="text-center text-white font-orbitron leading-tight"
@@ -316,6 +333,12 @@
                           leaderboard to become the ultimate tank commander.
                         </p>
                       </div>
+                      <p
+                        style="font-size: 1.8rem"
+                        class="mt-4 font-audiowide text-orange-300 rounded-xl transition duration-300 ease-in-out relative px-7 py-3 overflow-hidden group"
+                      >
+                        Comming Soon
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -326,13 +349,14 @@
                 <div class="shadow-2xl shadow-black">
                   <div class="game-card-bg">
                     <div class="game-img-adj">
-                      <img
-                        src="assets/cards/f4.png"
-                        alt=""
-                        class="2xl:w-[600px] rounded-xl transition-all duration-500 ease-in-out transform hover:scale-105 hover:shadow-lg w-full object-cover h-28 md:h-40 lg:h-52 xl:h-64 2xl:h-72 min-h-[150px] max-h-[px] max-w-[400px] lg:max-w-[450px] xl:max-w-[550px] 2xl:max-w-[700px] shadow-lg shadow-black"
-                      />
+                      <a href="./"
+                        ><img
+                          src="assets/cards/f4.png"
+                          alt=""
+                          class="2xl:w-[600px] rounded-xl transition-all duration-500 ease-in-out transform hover:scale-105 hover:shadow-lg w-full object-cover h-28 md:h-40 lg:h-52 xl:h-64 2xl:h-72 min-h-[150px] max-h-[px] max-w-[400px] lg:max-w-[450px] xl:max-w-[550px] 2xl:max-w-[700px] shadow-lg shadow-black"
+                      /></a>
                     </div>
-                    <div class=" ">
+                    <div class="flex flex-col items-center">
                       <!-- Text Section with Animation -->
                       <div
                         class="text-center text-white font-orbitron leading-tight"
@@ -374,6 +398,12 @@
                           protect the city.
                         </p>
                       </div>
+                      <p
+                        style="font-size: 1.8rem"
+                        class="mt-4 font-audiowide text-orange-300 rounded-xl transition duration-300 ease-in-out relative px-7 py-3 overflow-hidden group"
+                      >
+                        Comming Soon
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -382,9 +412,6 @@
           </div>
         </div>
       </div>
-
-      <script src="./script/custom.js"></script>
-      <script src="./script/model.js"></script>
 
       <footer class="relative py-6">
         <div
@@ -550,6 +577,8 @@
         </div>
       </footer>
     </div>
+    <script src="./script/custom.js"></script>
+    <script src="./script/model.js"></script>
   </body>
 
   <script>
